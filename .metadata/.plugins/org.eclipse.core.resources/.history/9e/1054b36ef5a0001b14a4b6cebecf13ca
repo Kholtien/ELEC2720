@@ -1,0 +1,22 @@
+/*
+ * colton.c
+ *
+ *  Created on: 19 Apr 2021
+ *      Author: c3267533
+ */
+UART_HandleTypeDef huart2;
+
+
+
+void assMain(void)
+{
+	uint8_t data[] = "Hello Cruel World\n";
+	uint8_t rec_data[4];
+	my_USART_Init (& huart2); // !!!! ADDED USART 2 to accept printf etc.
+	while(1){
+		  HAL_UART_Transmit (& huart2 , data , sizeof ( data ) , 100) ;
+		  HAL_Delay (500) ;
+		  HAL_GPIO_TogglePin ( GPIOD , GPIO_PIN_12 ); // Green LED
+	}
+}
+

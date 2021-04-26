@@ -1,0 +1,1412 @@
+16:12:58 **** Incremental Build of configuration Debug for project ASSIGN02 ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DDEBUG -DSTM32F407xx -c -I../USB_HOST/App -I../USB_HOST/Target -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Middlewares/ST/STM32_USB_Host_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Inc -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "ASSIGN02.elf" @"objects.list"   -mcpu=cortex-m4 -T"U:\2021\ELEC2720\A2\ASSIGN02\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="ASSIGN02.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: ASSIGN02.elf
+ 
+arm-none-eabi-objdump -h -S  ASSIGN02.elf  > "ASSIGN02.list"
+arm-none-eabi-objcopy  -O binary  ASSIGN02.elf  "ASSIGN02.bin"
+arm-none-eabi-size   ASSIGN02.elf 
+   text	   data	    bss	    dec	    hex	filename
+  29768	    152	   3432	  33352	   8248	ASSIGN02.elf
+Finished building: default.size.stdout
+ 
+Finished building: ASSIGN02.bin
+ 
+Finished building: ASSIGN02.list
+ 
+16:13:36 **** Incremental Build of configuration Debug for project ASSIGN02 ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DDEBUG -DSTM32F407xx -c -I../USB_HOST/App -I../USB_HOST/Target -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Middlewares/ST/STM32_USB_Host_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Inc -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "ASSIGN02.elf" @"objects.list"   -mcpu=cortex-m4 -T"U:\2021\ELEC2720\A2\ASSIGN02\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="ASSIGN02.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: ASSIGN02.elf
+ 
+arm-none-eabi-objdump -h -S  ASSIGN02.elf  > "ASSIGN02.list"
+arm-none-eabi-objcopy  -O binary  ASSIGN02.elf  "ASSIGN02.bin"
+arm-none-eabi-size   ASSIGN02.elf 
+   text	   data	    bss	    dec	    hex	filename
+  29772	    152	   3432	  33356	   824c	ASSIGN02.elf
+Finished building: default.size.stdout
+ 
+Finished building: ASSIGN02.bin
+ 
+Finished building: ASSIGN02.list
+ 
+16:15:32 **** Incremental Build of configuration Debug for project ASSIGN02 ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DDEBUG -DSTM32F407xx -c -I../USB_HOST/App -I../USB_HOST/Target -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Middlewares/ST/STM32_USB_Host_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Inc -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "ASSIGN02.elf" @"objects.list"   -mcpu=cortex-m4 -T"U:\2021\ELEC2720\A2\ASSIGN02\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="ASSIGN02.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: ASSIGN02.elf
+ 
+arm-none-eabi-objdump -h -S  ASSIGN02.elf  > "ASSIGN02.list"
+arm-none-eabi-objcopy  -O binary  ASSIGN02.elf  "ASSIGN02.bin"
+arm-none-eabi-size   ASSIGN02.elf 
+   text	   data	    bss	    dec	    hex	filename
+  29836	    152	   3432	  33420	   828c	ASSIGN02.elf
+Finished building: default.size.stdout
+ 
+Finished building: ASSIGN02.bin
+ 
+Finished building: ASSIGN02.list
+ 
+16:18:09 **** Incremental Build of configuration Debug for project ASSIGN02 ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DDEBUG -DSTM32F407xx -c -I../USB_HOST/App -I../USB_HOST/Target -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Middlewares/ST/STM32_USB_Host_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Inc -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "ASSIGN02.elf" @"objects.list"   -mcpu=cortex-m4 -T"U:\2021\ELEC2720\A2\ASSIGN02\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="ASSIGN02.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: ASSIGN02.elf
+ 
+arm-none-eabi-objdump -h -S  ASSIGN02.elf  > "ASSIGN02.list"
+arm-none-eabi-objcopy  -O binary  ASSIGN02.elf  "ASSIGN02.bin"
+arm-none-eabi-size   ASSIGN02.elf 
+   text	   data	    bss	    dec	    hex	filename
+  29832	    152	   3432	  33416	   8288	ASSIGN02.elf
+Finished building: default.size.stdout
+ 
+Finished building: ASSIGN02.bin
+ 
+Finished building: ASSIGN02.list
+ 
+16:19:07 **** Incremental Build of configuration Debug for project ASSIGN02 ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DDEBUG -DSTM32F407xx -c -I../USB_HOST/App -I../USB_HOST/Target -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Middlewares/ST/STM32_USB_Host_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Inc -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "ASSIGN02.elf" @"objects.list"   -mcpu=cortex-m4 -T"U:\2021\ELEC2720\A2\ASSIGN02\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="ASSIGN02.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: ASSIGN02.elf
+ 
+arm-none-eabi-objdump -h -S  ASSIGN02.elf  > "ASSIGN02.list"
+arm-none-eabi-objcopy  -O binary  ASSIGN02.elf  "ASSIGN02.bin"
+arm-none-eabi-size   ASSIGN02.elf 
+   text	   data	    bss	    dec	    hex	filename
+  29836	    152	   3432	  33420	   828c	ASSIGN02.elf
+Finished building: default.size.stdout
+ 
+Finished building: ASSIGN02.bin
+ 
+Finished building: ASSIGN02.list
+ 
+16:19:42 **** Incremental Build of configuration Debug for project ASSIGN02 ****
+make -j16 all 
+arm-none-eabi-size   ASSIGN02.elf 
+   text	   data	    bss	    dec	    hex	filename
+  29836	    152	   3432	  33420	   828c	ASSIGN02.elf
+Finished building: default.size.stdout
+ 
+16:21:22 **** Incremental Build of configuration Debug for project ASSIGN02 ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DDEBUG -DSTM32F407xx -c -I../USB_HOST/App -I../USB_HOST/Target -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Middlewares/ST/STM32_USB_Host_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Inc -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "ASSIGN02.elf" @"objects.list"   -mcpu=cortex-m4 -T"U:\2021\ELEC2720\A2\ASSIGN02\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="ASSIGN02.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: ASSIGN02.elf
+ 
+arm-none-eabi-objdump -h -S  ASSIGN02.elf  > "ASSIGN02.list"
+arm-none-eabi-objcopy  -O binary  ASSIGN02.elf  "ASSIGN02.bin"
+arm-none-eabi-size   ASSIGN02.elf 
+   text	   data	    bss	    dec	    hex	filename
+  29840	    152	   3432	  33424	   8290	ASSIGN02.elf
+Finished building: default.size.stdout
+ 
+Finished building: ASSIGN02.bin
+ 
+Finished building: ASSIGN02.list
+ 
+16:23:19 **** Incremental Build of configuration Debug for project ASSIGN02 ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DDEBUG -DSTM32F407xx -c -I../USB_HOST/App -I../USB_HOST/Target -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Middlewares/ST/STM32_USB_Host_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Inc -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "ASSIGN02.elf" @"objects.list"   -mcpu=cortex-m4 -T"U:\2021\ELEC2720\A2\ASSIGN02\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="ASSIGN02.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: ASSIGN02.elf
+ 
+arm-none-eabi-objdump -h -S  ASSIGN02.elf  > "ASSIGN02.list"
+arm-none-eabi-objcopy  -O binary  ASSIGN02.elf  "ASSIGN02.bin"
+arm-none-eabi-size   ASSIGN02.elf 
+   text	   data	    bss	    dec	    hex	filename
+  29836	    152	   3432	  33420	   828c	ASSIGN02.elf
+Finished building: default.size.stdout
+ 
+Finished building: ASSIGN02.bin
+ 
+Finished building: ASSIGN02.list
+ 
+16:26:35 **** Incremental Build of configuration Debug for project ASSIGN02 ****
+make -j16 all 
+arm-none-eabi-size   ASSIGN02.elf 
+   text	   data	    bss	    dec	    hex	filename
+  29836	    152	   3432	  33420	   828c	ASSIGN02.elf
+Finished building: default.size.stdout
+ 
+15:34:01 **** Build of configuration Debug for project ASSIGN02 ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DDEBUG -DSTM32F407xx -c -I../USB_HOST/App -I../USB_HOST/Target -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Middlewares/ST/STM32_USB_Host_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Inc -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/colton.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DDEBUG -DSTM32F407xx -c -I../USB_HOST/App -I../USB_HOST/Target -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Middlewares/ST/STM32_USB_Host_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Inc -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/colton.d" -MT"Core/Src/colton.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/colton.o"
+../Core/Src/colton.c: In function 'readJoysticks':
+../Core/Src/colton.c:12:2: error: unknown type name 'GPIO_PinState'
+  GPIO_PinState joy_a_status = HAL_GPIO_ReadPin(JOY_A_GPIO_Port, JOY_A_Pin);
+  ^~~~~~~~~~~~~
+../Core/Src/colton.c:12:31: warning: implicit declaration of function 'HAL_GPIO_ReadPin' [-Wimplicit-function-declaration]
+  GPIO_PinState joy_a_status = HAL_GPIO_ReadPin(JOY_A_GPIO_Port, JOY_A_Pin);
+                               ^~~~~~~~~~~~~~~~
+../Core/Src/colton.c:12:48: error: 'JOY_A_GPIO_Port' undeclared (first use in this function)
+  GPIO_PinState joy_a_status = HAL_GPIO_ReadPin(JOY_A_GPIO_Port, JOY_A_Pin);
+                                                ^~~~~~~~~~~~~~~
+../Core/Src/colton.c:12:48: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/colton.c:12:65: error: 'JOY_A_Pin' undeclared (first use in this function)
+  GPIO_PinState joy_a_status = HAL_GPIO_ReadPin(JOY_A_GPIO_Port, JOY_A_Pin);
+                                                                 ^~~~~~~~~
+../Core/Src/colton.c:13:2: error: unknown type name 'GPIO_PinState'
+  GPIO_PinState joy_b_status = HAL_GPIO_ReadPin(JOY_B_GPIO_Port, JOY_B_Pin);
+  ^~~~~~~~~~~~~
+../Core/Src/colton.c:13:48: error: 'JOY_B_GPIO_Port' undeclared (first use in this function); did you mean 'JOY_A_GPIO_Port'?
+  GPIO_PinState joy_b_status = HAL_GPIO_ReadPin(JOY_B_GPIO_Port, JOY_B_Pin);
+                                                ^~~~~~~~~~~~~~~
+                                                JOY_A_GPIO_Port
+../Core/Src/colton.c:13:65: error: 'JOY_B_Pin' undeclared (first use in this function); did you mean 'JOY_A_Pin'?
+  GPIO_PinState joy_b_status = HAL_GPIO_ReadPin(JOY_B_GPIO_Port, JOY_B_Pin);
+                                                                 ^~~~~~~~~
+                                                                 JOY_A_Pin
+../Core/Src/colton.c:14:2: error: unknown type name 'GPIO_PinState'
+  GPIO_PinState joy_c_status = HAL_GPIO_ReadPin(JOY_C_GPIO_Port, JOY_C_Pin);
+  ^~~~~~~~~~~~~
+../Core/Src/colton.c:14:48: error: 'JOY_C_GPIO_Port' undeclared (first use in this function); did you mean 'JOY_B_GPIO_Port'?
+  GPIO_PinState joy_c_status = HAL_GPIO_ReadPin(JOY_C_GPIO_Port, JOY_C_Pin);
+                                                ^~~~~~~~~~~~~~~
+                                                JOY_B_GPIO_Port
+../Core/Src/colton.c:14:65: error: 'JOY_C_Pin' undeclared (first use in this function); did you mean 'JOY_B_Pin'?
+  GPIO_PinState joy_c_status = HAL_GPIO_ReadPin(JOY_C_GPIO_Port, JOY_C_Pin);
+                                                                 ^~~~~~~~~
+                                                                 JOY_B_Pin
+../Core/Src/colton.c:15:2: error: unknown type name 'GPIO_PinState'
+  GPIO_PinState joy_d_status = HAL_GPIO_ReadPin(JOY_D_GPIO_Port, JOY_D_Pin);
+  ^~~~~~~~~~~~~
+../Core/Src/colton.c:15:48: error: 'JOY_D_GPIO_Port' undeclared (first use in this function); did you mean 'JOY_C_GPIO_Port'?
+  GPIO_PinState joy_d_status = HAL_GPIO_ReadPin(JOY_D_GPIO_Port, JOY_D_Pin);
+                                                ^~~~~~~~~~~~~~~
+                                                JOY_C_GPIO_Port
+../Core/Src/colton.c:15:65: error: 'JOY_D_Pin' undeclared (first use in this function); did you mean 'JOY_C_Pin'?
+  GPIO_PinState joy_d_status = HAL_GPIO_ReadPin(JOY_D_GPIO_Port, JOY_D_Pin);
+                                                                 ^~~~~~~~~
+                                                                 JOY_C_Pin
+../Core/Src/colton.c:16:2: error: unknown type name 'GPIO_PinState'
+  GPIO_PinState joy_ctr_status = HAL_GPIO_ReadPin(JOY_CTR_GPIO_Port, JOY_CTR_Pin);
+  ^~~~~~~~~~~~~
+../Core/Src/colton.c:16:50: error: 'JOY_CTR_GPIO_Port' undeclared (first use in this function); did you mean 'JOY_C_GPIO_Port'?
+  GPIO_PinState joy_ctr_status = HAL_GPIO_ReadPin(JOY_CTR_GPIO_Port, JOY_CTR_Pin);
+                                                  ^~~~~~~~~~~~~~~~~
+                                                  JOY_C_GPIO_Port
+../Core/Src/colton.c:16:69: error: 'JOY_CTR_Pin' undeclared (first use in this function); did you mean 'JOY_C_Pin'?
+  GPIO_PinState joy_ctr_status = HAL_GPIO_ReadPin(JOY_CTR_GPIO_Port, JOY_CTR_Pin);
+                                                                     ^~~~~~~~~~~
+                                                                     JOY_C_Pin
+../Core/Src/colton.c:11:13: warning: variable 'joyStickState' set but not used [-Wunused-but-set-variable]
+  static int joyStickState[5];
+             ^~~~~~~~~~~~~
+../Core/Src/colton.c:25:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+make: *** [Core/Src/subdir.mk:36: Core/Src/colton.o] Error 1
+make: *** Waiting for unfinished jobs....
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:119:11: warning: unused variable 'joyStateStatus' [-Wunused-variable]
+     int * joyStateStatus = readJoysticks();
+           ^~~~~~~~~~~~~~
+"make -j16 all" terminated with exit code 2. Build might be incomplete.
+15:34:40 **** Incremental Build of configuration Debug for project ASSIGN02 ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/colton.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DDEBUG -DSTM32F407xx -c -I../USB_HOST/App -I../USB_HOST/Target -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Middlewares/ST/STM32_USB_Host_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Inc -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/colton.d" -MT"Core/Src/colton.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/colton.o"
+../Core/Src/colton.c: In function 'readJoysticks':
+../Core/Src/colton.c:12:2: error: unknown type name 'GPIO_PinState'
+  GPIO_PinState joy_a_status = HAL_GPIO_ReadPin(JOY_A_GPIO_Port, JOY_A_Pin);
+  ^~~~~~~~~~~~~
+../Core/Src/colton.c:12:31: warning: implicit declaration of function 'HAL_GPIO_ReadPin' [-Wimplicit-function-declaration]
+  GPIO_PinState joy_a_status = HAL_GPIO_ReadPin(JOY_A_GPIO_Port, JOY_A_Pin);
+                               ^~~~~~~~~~~~~~~~
+../Core/Src/colton.c:12:48: error: 'JOY_A_GPIO_Port' undeclared (first use in this function)
+  GPIO_PinState joy_a_status = HAL_GPIO_ReadPin(JOY_A_GPIO_Port, JOY_A_Pin);
+                                                ^~~~~~~~~~~~~~~
+../Core/Src/colton.c:12:48: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/colton.c:12:65: error: 'JOY_A_Pin' undeclared (first use in this function)
+  GPIO_PinState joy_a_status = HAL_GPIO_ReadPin(JOY_A_GPIO_Port, JOY_A_Pin);
+                                                                 ^~~~~~~~~
+../Core/Src/colton.c:13:2: error: unknown type name 'GPIO_PinState'
+  GPIO_PinState joy_b_status = HAL_GPIO_ReadPin(JOY_B_GPIO_Port, JOY_B_Pin);
+  ^~~~~~~~~~~~~
+../Core/Src/colton.c:13:48: error: 'JOY_B_GPIO_Port' undeclared (first use in this function); did you mean 'JOY_A_GPIO_Port'?
+  GPIO_PinState joy_b_status = HAL_GPIO_ReadPin(JOY_B_GPIO_Port, JOY_B_Pin);
+                                                ^~~~~~~~~~~~~~~
+                                                JOY_A_GPIO_Port
+../Core/Src/colton.c:13:65: error: 'JOY_B_Pin' undeclared (first use in this function); did you mean 'JOY_A_Pin'?
+  GPIO_PinState joy_b_status = HAL_GPIO_ReadPin(JOY_B_GPIO_Port, JOY_B_Pin);
+                                                                 ^~~~~~~~~
+                                                                 JOY_A_Pin
+../Core/Src/colton.c:14:2: error: unknown type name 'GPIO_PinState'
+  GPIO_PinState joy_c_status = HAL_GPIO_ReadPin(JOY_C_GPIO_Port, JOY_C_Pin);
+  ^~~~~~~~~~~~~
+../Core/Src/colton.c:14:48: error: 'JOY_C_GPIO_Port' undeclared (first use in this function); did you mean 'JOY_B_GPIO_Port'?
+  GPIO_PinState joy_c_status = HAL_GPIO_ReadPin(JOY_C_GPIO_Port, JOY_C_Pin);
+                                                ^~~~~~~~~~~~~~~
+                                                JOY_B_GPIO_Port
+../Core/Src/colton.c:14:65: error: 'JOY_C_Pin' undeclared (first use in this function); did you mean 'JOY_B_Pin'?
+  GPIO_PinState joy_c_status = HAL_GPIO_ReadPin(JOY_C_GPIO_Port, JOY_C_Pin);
+                                                                 ^~~~~~~~~
+                                                                 JOY_B_Pin
+../Core/Src/colton.c:15:2: error: unknown type name 'GPIO_PinState'
+  GPIO_PinState joy_d_status = HAL_GPIO_ReadPin(JOY_D_GPIO_Port, JOY_D_Pin);
+  ^~~~~~~~~~~~~
+../Core/Src/colton.c:15:48: error: 'JOY_D_GPIO_Port' undeclared (first use in this function); did you mean 'JOY_C_GPIO_Port'?
+  GPIO_PinState joy_d_status = HAL_GPIO_ReadPin(JOY_D_GPIO_Port, JOY_D_Pin);
+                                                ^~~~~~~~~~~~~~~
+                                                JOY_C_GPIO_Port
+../Core/Src/colton.c:15:65: error: 'JOY_D_Pin' undeclared (first use in this function); did you mean 'JOY_C_Pin'?
+  GPIO_PinState joy_d_status = HAL_GPIO_ReadPin(JOY_D_GPIO_Port, JOY_D_Pin);
+                                                                 ^~~~~~~~~
+                                                                 JOY_C_Pin
+../Core/Src/colton.c:16:2: error: unknown type name 'GPIO_PinState'
+  GPIO_PinState joy_ctr_status = HAL_GPIO_ReadPin(JOY_CTR_GPIO_Port, JOY_CTR_Pin);
+  ^~~~~~~~~~~~~
+../Core/Src/colton.c:16:50: error: 'JOY_CTR_GPIO_Port' undeclared (first use in this function); did you mean 'JOY_C_GPIO_Port'?
+  GPIO_PinState joy_ctr_status = HAL_GPIO_ReadPin(JOY_CTR_GPIO_Port, JOY_CTR_Pin);
+                                                  ^~~~~~~~~~~~~~~~~
+                                                  JOY_C_GPIO_Port
+../Core/Src/colton.c:16:69: error: 'JOY_CTR_Pin' undeclared (first use in this function); did you mean 'JOY_C_Pin'?
+  GPIO_PinState joy_ctr_status = HAL_GPIO_ReadPin(JOY_CTR_GPIO_Port, JOY_CTR_Pin);
+                                                                     ^~~~~~~~~~~
+                                                                     JOY_C_Pin
+../Core/Src/colton.c:11:13: warning: variable 'joyStickState' set but not used [-Wunused-but-set-variable]
+  static int joyStickState[5];
+             ^~~~~~~~~~~~~
+../Core/Src/colton.c:25:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+make: *** [Core/Src/subdir.mk:36: Core/Src/colton.o] Error 1
+"make -j16 all" terminated with exit code 2. Build might be incomplete.
+15:35:01 **** Incremental Build of configuration Debug for project ASSIGN02 ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/colton.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DDEBUG -DSTM32F407xx -c -I../USB_HOST/App -I../USB_HOST/Target -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Middlewares/ST/STM32_USB_Host_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Inc -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/colton.d" -MT"Core/Src/colton.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/colton.o"
+../Core/Src/colton.c: In function 'readJoysticks':
+../Core/Src/colton.c:12:2: error: unknown type name 'GPIO_PinState'
+  GPIO_PinState joy_a_status = HAL_GPIO_ReadPin(JOY_A_GPIO_Port, JOY_A_Pin);
+  ^~~~~~~~~~~~~
+../Core/Src/colton.c:12:31: warning: implicit declaration of function 'HAL_GPIO_ReadPin' [-Wimplicit-function-declaration]
+  GPIO_PinState joy_a_status = HAL_GPIO_ReadPin(JOY_A_GPIO_Port, JOY_A_Pin);
+                               ^~~~~~~~~~~~~~~~
+../Core/Src/colton.c:12:48: error: 'JOY_A_GPIO_Port' undeclared (first use in this function)
+  GPIO_PinState joy_a_status = HAL_GPIO_ReadPin(JOY_A_GPIO_Port, JOY_A_Pin);
+                                                ^~~~~~~~~~~~~~~
+../Core/Src/colton.c:12:48: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/colton.c:12:65: error: 'JOY_A_Pin' undeclared (first use in this function)
+  GPIO_PinState joy_a_status = HAL_GPIO_ReadPin(JOY_A_GPIO_Port, JOY_A_Pin);
+                                                                 ^~~~~~~~~
+../Core/Src/colton.c:13:2: error: unknown type name 'GPIO_PinState'
+  GPIO_PinState joy_b_status = HAL_GPIO_ReadPin(JOY_B_GPIO_Port, JOY_B_Pin);
+  ^~~~~~~~~~~~~
+../Core/Src/colton.c:13:48: error: 'JOY_B_GPIO_Port' undeclared (first use in this function); did you mean 'JOY_A_GPIO_Port'?
+  GPIO_PinState joy_b_status = HAL_GPIO_ReadPin(JOY_B_GPIO_Port, JOY_B_Pin);
+                                                ^~~~~~~~~~~~~~~
+                                                JOY_A_GPIO_Port
+../Core/Src/colton.c:13:65: error: 'JOY_B_Pin' undeclared (first use in this function); did you mean 'JOY_A_Pin'?
+  GPIO_PinState joy_b_status = HAL_GPIO_ReadPin(JOY_B_GPIO_Port, JOY_B_Pin);
+                                                                 ^~~~~~~~~
+                                                                 JOY_A_Pin
+../Core/Src/colton.c:14:2: error: unknown type name 'GPIO_PinState'
+  GPIO_PinState joy_c_status = HAL_GPIO_ReadPin(JOY_C_GPIO_Port, JOY_C_Pin);
+  ^~~~~~~~~~~~~
+../Core/Src/colton.c:14:48: error: 'JOY_C_GPIO_Port' undeclared (first use in this function); did you mean 'JOY_B_GPIO_Port'?
+  GPIO_PinState joy_c_status = HAL_GPIO_ReadPin(JOY_C_GPIO_Port, JOY_C_Pin);
+                                                ^~~~~~~~~~~~~~~
+                                                JOY_B_GPIO_Port
+../Core/Src/colton.c:14:65: error: 'JOY_C_Pin' undeclared (first use in this function); did you mean 'JOY_B_Pin'?
+  GPIO_PinState joy_c_status = HAL_GPIO_ReadPin(JOY_C_GPIO_Port, JOY_C_Pin);
+                                                                 ^~~~~~~~~
+                                                                 JOY_B_Pin
+../Core/Src/colton.c:15:2: error: unknown type name 'GPIO_PinState'
+  GPIO_PinState joy_d_status = HAL_GPIO_ReadPin(JOY_D_GPIO_Port, JOY_D_Pin);
+  ^~~~~~~~~~~~~
+../Core/Src/colton.c:15:48: error: 'JOY_D_GPIO_Port' undeclared (first use in this function); did you mean 'JOY_C_GPIO_Port'?
+  GPIO_PinState joy_d_status = HAL_GPIO_ReadPin(JOY_D_GPIO_Port, JOY_D_Pin);
+                                                ^~~~~~~~~~~~~~~
+                                                JOY_C_GPIO_Port
+../Core/Src/colton.c:15:65: error: 'JOY_D_Pin' undeclared (first use in this function); did you mean 'JOY_C_Pin'?
+  GPIO_PinState joy_d_status = HAL_GPIO_ReadPin(JOY_D_GPIO_Port, JOY_D_Pin);
+                                                                 ^~~~~~~~~
+                                                                 JOY_C_Pin
+../Core/Src/colton.c:16:2: error: unknown type name 'GPIO_PinState'
+  GPIO_PinState joy_ctr_status = HAL_GPIO_ReadPin(JOY_CTR_GPIO_Port, JOY_CTR_Pin);
+  ^~~~~~~~~~~~~
+../Core/Src/colton.c:16:50: error: 'JOY_CTR_GPIO_Port' undeclared (first use in this function); did you mean 'JOY_C_GPIO_Port'?
+  GPIO_PinState joy_ctr_status = HAL_GPIO_ReadPin(JOY_CTR_GPIO_Port, JOY_CTR_Pin);
+                                                  ^~~~~~~~~~~~~~~~~
+                                                  JOY_C_GPIO_Port
+../Core/Src/colton.c:16:69: error: 'JOY_CTR_Pin' undeclared (first use in this function); did you mean 'JOY_C_Pin'?
+  GPIO_PinState joy_ctr_status = HAL_GPIO_ReadPin(JOY_CTR_GPIO_Port, JOY_CTR_Pin);
+                                                                     ^~~~~~~~~~~
+                                                                     JOY_C_Pin
+../Core/Src/colton.c:11:13: warning: variable 'joyStickState' set but not used [-Wunused-but-set-variable]
+  static int joyStickState[5];
+             ^~~~~~~~~~~~~
+../Core/Src/colton.c:25:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+make: *** [Core/Src/subdir.mk:36: Core/Src/colton.o] Error 1
+"make -j16 all" terminated with exit code 2. Build might be incomplete.
+15:35:23 **** Incremental Build of configuration Debug for project ASSIGN02 ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/colton.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DDEBUG -DSTM32F407xx -c -I../USB_HOST/App -I../USB_HOST/Target -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Middlewares/ST/STM32_USB_Host_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Inc -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/colton.d" -MT"Core/Src/colton.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/colton.o"
+../Core/Src/colton.c: In function 'readJoysticks':
+../Core/Src/colton.c:12:2: error: unknown type name 'GPIO_PinState'
+  GPIO_PinState joy_a_status = HAL_GPIO_ReadPin(JOY_A_GPIO_Port, JOY_A_Pin);
+  ^~~~~~~~~~~~~
+../Core/Src/colton.c:12:31: warning: implicit declaration of function 'HAL_GPIO_ReadPin' [-Wimplicit-function-declaration]
+  GPIO_PinState joy_a_status = HAL_GPIO_ReadPin(JOY_A_GPIO_Port, JOY_A_Pin);
+                               ^~~~~~~~~~~~~~~~
+../Core/Src/colton.c:12:48: error: 'JOY_A_GPIO_Port' undeclared (first use in this function)
+  GPIO_PinState joy_a_status = HAL_GPIO_ReadPin(JOY_A_GPIO_Port, JOY_A_Pin);
+                                                ^~~~~~~~~~~~~~~
+../Core/Src/colton.c:12:48: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/colton.c:12:65: error: 'JOY_A_Pin' undeclared (first use in this function)
+  GPIO_PinState joy_a_status = HAL_GPIO_ReadPin(JOY_A_GPIO_Port, JOY_A_Pin);
+                                                                 ^~~~~~~~~
+../Core/Src/colton.c:13:2: error: unknown type name 'GPIO_PinState'
+  GPIO_PinState joy_b_status = HAL_GPIO_ReadPin(JOY_B_GPIO_Port, JOY_B_Pin);
+  ^~~~~~~~~~~~~
+../Core/Src/colton.c:13:48: error: 'JOY_B_GPIO_Port' undeclared (first use in this function); did you mean 'JOY_A_GPIO_Port'?
+  GPIO_PinState joy_b_status = HAL_GPIO_ReadPin(JOY_B_GPIO_Port, JOY_B_Pin);
+                                                ^~~~~~~~~~~~~~~
+                                                JOY_A_GPIO_Port
+../Core/Src/colton.c:13:65: error: 'JOY_B_Pin' undeclared (first use in this function); did you mean 'JOY_A_Pin'?
+  GPIO_PinState joy_b_status = HAL_GPIO_ReadPin(JOY_B_GPIO_Port, JOY_B_Pin);
+                                                                 ^~~~~~~~~
+                                                                 JOY_A_Pin
+../Core/Src/colton.c:14:2: error: unknown type name 'GPIO_PinState'
+  GPIO_PinState joy_c_status = HAL_GPIO_ReadPin(JOY_C_GPIO_Port, JOY_C_Pin);
+  ^~~~~~~~~~~~~
+../Core/Src/colton.c:14:48: error: 'JOY_C_GPIO_Port' undeclared (first use in this function); did you mean 'JOY_B_GPIO_Port'?
+  GPIO_PinState joy_c_status = HAL_GPIO_ReadPin(JOY_C_GPIO_Port, JOY_C_Pin);
+                                                ^~~~~~~~~~~~~~~
+                                                JOY_B_GPIO_Port
+../Core/Src/colton.c:14:65: error: 'JOY_C_Pin' undeclared (first use in this function); did you mean 'JOY_B_Pin'?
+  GPIO_PinState joy_c_status = HAL_GPIO_ReadPin(JOY_C_GPIO_Port, JOY_C_Pin);
+                                                                 ^~~~~~~~~
+                                                                 JOY_B_Pin
+../Core/Src/colton.c:15:2: error: unknown type name 'GPIO_PinState'
+  GPIO_PinState joy_d_status = HAL_GPIO_ReadPin(JOY_D_GPIO_Port, JOY_D_Pin);
+  ^~~~~~~~~~~~~
+../Core/Src/colton.c:15:48: error: 'JOY_D_GPIO_Port' undeclared (first use in this function); did you mean 'JOY_C_GPIO_Port'?
+  GPIO_PinState joy_d_status = HAL_GPIO_ReadPin(JOY_D_GPIO_Port, JOY_D_Pin);
+                                                ^~~~~~~~~~~~~~~
+                                                JOY_C_GPIO_Port
+../Core/Src/colton.c:15:65: error: 'JOY_D_Pin' undeclared (first use in this function); did you mean 'JOY_C_Pin'?
+  GPIO_PinState joy_d_status = HAL_GPIO_ReadPin(JOY_D_GPIO_Port, JOY_D_Pin);
+                                                                 ^~~~~~~~~
+                                                                 JOY_C_Pin
+../Core/Src/colton.c:16:2: error: unknown type name 'GPIO_PinState'
+  GPIO_PinState joy_ctr_status = HAL_GPIO_ReadPin(JOY_CTR_GPIO_Port, JOY_CTR_Pin);
+  ^~~~~~~~~~~~~
+../Core/Src/colton.c:16:50: error: 'JOY_CTR_GPIO_Port' undeclared (first use in this function); did you mean 'JOY_C_GPIO_Port'?
+  GPIO_PinState joy_ctr_status = HAL_GPIO_ReadPin(JOY_CTR_GPIO_Port, JOY_CTR_Pin);
+                                                  ^~~~~~~~~~~~~~~~~
+                                                  JOY_C_GPIO_Port
+../Core/Src/colton.c:16:69: error: 'JOY_CTR_Pin' undeclared (first use in this function); did you mean 'JOY_C_Pin'?
+  GPIO_PinState joy_ctr_status = HAL_GPIO_ReadPin(JOY_CTR_GPIO_Port, JOY_CTR_Pin);
+                                                                     ^~~~~~~~~~~
+                                                                     JOY_C_Pin
+../Core/Src/colton.c:11:13: warning: variable 'joyStickState' set but not used [-Wunused-but-set-variable]
+  static int joyStickState[5];
+             ^~~~~~~~~~~~~
+../Core/Src/colton.c:25:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+make: *** [Core/Src/subdir.mk:36: Core/Src/colton.o] Error 1
+"make -j16 all" terminated with exit code 2. Build might be incomplete.
+15:36:25 **** Incremental Build of configuration Debug for project ASSIGN02 ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/colton.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DDEBUG -DSTM32F407xx -c -I../USB_HOST/App -I../USB_HOST/Target -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Middlewares/ST/STM32_USB_Host_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Inc -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/colton.d" -MT"Core/Src/colton.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/colton.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DDEBUG -DSTM32F407xx -c -I../USB_HOST/App -I../USB_HOST/Target -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Middlewares/ST/STM32_USB_Host_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Inc -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/colton.c: In function 'readJoysticks':
+../Core/Src/colton.c:12:2: error: unknown type name 'GPIO_PinState'
+  GPIO_PinState joy_a_status = HAL_GPIO_ReadPin(JOY_A_GPIO_Port, JOY_A_Pin);
+  ^~~~~~~~~~~~~
+../Core/Src/colton.c:12:31: warning: implicit declaration of function 'HAL_GPIO_ReadPin' [-Wimplicit-function-declaration]
+  GPIO_PinState joy_a_status = HAL_GPIO_ReadPin(JOY_A_GPIO_Port, JOY_A_Pin);
+                               ^~~~~~~~~~~~~~~~
+../Core/Src/colton.c:12:48: error: 'JOY_A_GPIO_Port' undeclared (first use in this function)
+  GPIO_PinState joy_a_status = HAL_GPIO_ReadPin(JOY_A_GPIO_Port, JOY_A_Pin);
+                                                ^~~~~~~~~~~~~~~
+../Core/Src/colton.c:12:48: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/colton.c:12:65: error: 'JOY_A_Pin' undeclared (first use in this function)
+  GPIO_PinState joy_a_status = HAL_GPIO_ReadPin(JOY_A_GPIO_Port, JOY_A_Pin);
+                                                                 ^~~~~~~~~
+../Core/Src/colton.c:13:2: error: unknown type name 'GPIO_PinState'
+  GPIO_PinState joy_b_status = HAL_GPIO_ReadPin(JOY_B_GPIO_Port, JOY_B_Pin);
+  ^~~~~~~~~~~~~
+../Core/Src/colton.c:13:48: error: 'JOY_B_GPIO_Port' undeclared (first use in this function); did you mean 'JOY_A_GPIO_Port'?
+  GPIO_PinState joy_b_status = HAL_GPIO_ReadPin(JOY_B_GPIO_Port, JOY_B_Pin);
+                                                ^~~~~~~~~~~~~~~
+                                                JOY_A_GPIO_Port
+../Core/Src/colton.c:13:65: error: 'JOY_B_Pin' undeclared (first use in this function); did you mean 'JOY_A_Pin'?
+  GPIO_PinState joy_b_status = HAL_GPIO_ReadPin(JOY_B_GPIO_Port, JOY_B_Pin);
+                                                                 ^~~~~~~~~
+                                                                 JOY_A_Pin
+../Core/Src/colton.c:14:2: error: unknown type name 'GPIO_PinState'
+  GPIO_PinState joy_c_status = HAL_GPIO_ReadPin(JOY_C_GPIO_Port, JOY_C_Pin);
+  ^~~~~~~~~~~~~
+../Core/Src/colton.c:14:48: error: 'JOY_C_GPIO_Port' undeclared (first use in this function); did you mean 'JOY_B_GPIO_Port'?
+  GPIO_PinState joy_c_status = HAL_GPIO_ReadPin(JOY_C_GPIO_Port, JOY_C_Pin);
+                                                ^~~~~~~~~~~~~~~
+                                                JOY_B_GPIO_Port
+../Core/Src/colton.c:14:65: error: 'JOY_C_Pin' undeclared (first use in this function); did you mean 'JOY_B_Pin'?
+  GPIO_PinState joy_c_status = HAL_GPIO_ReadPin(JOY_C_GPIO_Port, JOY_C_Pin);
+                                                                 ^~~~~~~~~
+                                                                 JOY_B_Pin
+../Core/Src/colton.c:15:2: error: unknown type name 'GPIO_PinState'
+  GPIO_PinState joy_d_status = HAL_GPIO_ReadPin(JOY_D_GPIO_Port, JOY_D_Pin);
+  ^~~~~~~~~~~~~
+../Core/Src/colton.c:15:48: error: 'JOY_D_GPIO_Port' undeclared (first use in this function); did you mean 'JOY_C_GPIO_Port'?
+  GPIO_PinState joy_d_status = HAL_GPIO_ReadPin(JOY_D_GPIO_Port, JOY_D_Pin);
+                                                ^~~~~~~~~~~~~~~
+                                                JOY_C_GPIO_Port
+../Core/Src/colton.c:15:65: error: 'JOY_D_Pin' undeclared (first use in this function); did you mean 'JOY_C_Pin'?
+  GPIO_PinState joy_d_status = HAL_GPIO_ReadPin(JOY_D_GPIO_Port, JOY_D_Pin);
+                                                                 ^~~~~~~~~
+                                                                 JOY_C_Pin
+../Core/Src/colton.c:16:2: error: unknown type name 'GPIO_PinState'
+  GPIO_PinState joy_ctr_status = HAL_GPIO_ReadPin(JOY_CTR_GPIO_Port, JOY_CTR_Pin);
+  ^~~~~~~~~~~~~
+../Core/Src/colton.c:16:50: error: 'JOY_CTR_GPIO_Port' undeclared (first use in this function); did you mean 'JOY_C_GPIO_Port'?
+  GPIO_PinState joy_ctr_status = HAL_GPIO_ReadPin(JOY_CTR_GPIO_Port, JOY_CTR_Pin);
+                                                  ^~~~~~~~~~~~~~~~~
+                                                  JOY_C_GPIO_Port
+../Core/Src/colton.c:16:69: error: 'JOY_CTR_Pin' undeclared (first use in this function); did you mean 'JOY_C_Pin'?
+  GPIO_PinState joy_ctr_status = HAL_GPIO_ReadPin(JOY_CTR_GPIO_Port, JOY_CTR_Pin);
+                                                                     ^~~~~~~~~~~
+                                                                     JOY_C_Pin
+../Core/Src/colton.c:11:13: warning: variable 'joyStickState' set but not used [-Wunused-but-set-variable]
+  static int joyStickState[5];
+             ^~~~~~~~~~~~~
+../Core/Src/colton.c:25:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+make: *** [Core/Src/subdir.mk:36: Core/Src/colton.o] Error 1
+make: *** Waiting for unfinished jobs....
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:119:11: warning: unused variable 'joyStateStatus' [-Wunused-variable]
+     int * joyStateStatus = readJoysticks();
+           ^~~~~~~~~~~~~~
+"make -j16 all" terminated with exit code 2. Build might be incomplete.
+15:39:21 **** Incremental Build of configuration Debug for project ASSIGN02 ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/colton.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DDEBUG -DSTM32F407xx -c -I../USB_HOST/App -I../USB_HOST/Target -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Middlewares/ST/STM32_USB_Host_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Inc -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/colton.d" -MT"Core/Src/colton.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/colton.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DDEBUG -DSTM32F407xx -c -I../USB_HOST/App -I../USB_HOST/Target -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Middlewares/ST/STM32_USB_Host_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Inc -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'readJoysticks':
+../Core/Src/main.c:131:13: warning: variable 'joyStickState' set but not used [-Wunused-but-set-variable]
+  static int joyStickState[5];
+             ^~~~~~~~~~~~~
+../Core/Src/main.c:145:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+arm-none-eabi-gcc -o "ASSIGN02.elf" @"objects.list"   -mcpu=cortex-m4 -T"U:\2021\ELEC2720\A2\ASSIGN02\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="ASSIGN02.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: ASSIGN02.elf
+ 
+arm-none-eabi-objdump -h -S  ASSIGN02.elf  > "ASSIGN02.list"
+arm-none-eabi-objcopy  -O binary  ASSIGN02.elf  "ASSIGN02.bin"
+arm-none-eabi-size   ASSIGN02.elf 
+   text	   data	    bss	    dec	    hex	filename
+  29984	    152	   3456	  33592	   8338	ASSIGN02.elf
+Finished building: default.size.stdout
+ 
+Finished building: ASSIGN02.bin
+ 
+Finished building: ASSIGN02.list
+ 
+15:41:16 **** Incremental Build of configuration Debug for project ASSIGN02 ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DDEBUG -DSTM32F407xx -c -I../USB_HOST/App -I../USB_HOST/Target -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Middlewares/ST/STM32_USB_Host_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Inc -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:119:30: error: invalid initializer
+     int * joyStateStatus[] = readJoysticks();
+                              ^~~~~~~~~~~~~
+../Core/Src/main.c:120:26: warning: comparison between pointer and integer
+     if(joyStateStatus[0] == 1){
+                          ^~
+../Core/Src/main.c: In function 'readJoysticks':
+../Core/Src/main.c:131:13: warning: variable 'joyStickState' set but not used [-Wunused-but-set-variable]
+  static int joyStickState[5];
+             ^~~~~~~~~~~~~
+../Core/Src/main.c:145:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+make: *** [Core/Src/subdir.mk:38: Core/Src/main.o] Error 1
+"make -j16 all" terminated with exit code 2. Build might be incomplete.
+15:45:32 **** Incremental Build of configuration Debug for project ASSIGN02 ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DDEBUG -DSTM32F407xx -c -I../USB_HOST/App -I../USB_HOST/Target -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Middlewares/ST/STM32_USB_Host_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Inc -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'readJoysticks':
+../Core/Src/main.c:139:2: error: 'joyStickState' undeclared (first use in this function); did you mean 'JoyStickState'?
+  joyStickState[0] = joy_a_status;
+  ^~~~~~~~~~~~~
+  JoyStickState
+../Core/Src/main.c:139:2: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/main.c:146:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+make: *** [Core/Src/subdir.mk:38: Core/Src/main.o] Error 1
+"make -j16 all" terminated with exit code 2. Build might be incomplete.
+15:46:26 **** Incremental Build of configuration Debug for project ASSIGN02 ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DDEBUG -DSTM32F407xx -c -I../USB_HOST/App -I../USB_HOST/Target -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Middlewares/ST/STM32_USB_Host_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Inc -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'readJoysticks':
+../Core/Src/main.c:146:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+arm-none-eabi-gcc -o "ASSIGN02.elf" @"objects.list"   -mcpu=cortex-m4 -T"U:\2021\ELEC2720\A2\ASSIGN02\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="ASSIGN02.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: ASSIGN02.elf
+ 
+arm-none-eabi-objdump -h -S  ASSIGN02.elf  > "ASSIGN02.list"
+arm-none-eabi-objcopy  -O binary  ASSIGN02.elf  "ASSIGN02.bin"
+arm-none-eabi-size   ASSIGN02.elf 
+   text	   data	    bss	    dec	    hex	filename
+  29996	    152	   3432	  33580	   832c	ASSIGN02.elf
+Finished building: default.size.stdout
+ 
+Finished building: ASSIGN02.bin
+ 
+Finished building: ASSIGN02.list
+ 
+15:48:14 **** Incremental Build of configuration Debug for project ASSIGN02 ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DDEBUG -DSTM32F407xx -c -I../USB_HOST/App -I../USB_HOST/Target -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Middlewares/ST/STM32_USB_Host_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Inc -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "ASSIGN02.elf" @"objects.list"   -mcpu=cortex-m4 -T"U:\2021\ELEC2720\A2\ASSIGN02\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="ASSIGN02.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: ASSIGN02.elf
+ 
+arm-none-eabi-objdump -h -S  ASSIGN02.elf  > "ASSIGN02.list"
+arm-none-eabi-objcopy  -O binary  ASSIGN02.elf  "ASSIGN02.bin"
+arm-none-eabi-size   ASSIGN02.elf 
+   text	   data	    bss	    dec	    hex	filename
+  29996	    152	   3432	  33580	   832c	ASSIGN02.elf
+Finished building: default.size.stdout
+ 
+Finished building: ASSIGN02.bin
+ 
+Finished building: ASSIGN02.list
+ 
+15:49:13 **** Incremental Build of configuration Debug for project ASSIGN02 ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DDEBUG -DSTM32F407xx -c -I../USB_HOST/App -I../USB_HOST/Target -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Middlewares/ST/STM32_USB_Host_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Inc -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "ASSIGN02.elf" @"objects.list"   -mcpu=cortex-m4 -T"U:\2021\ELEC2720\A2\ASSIGN02\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="ASSIGN02.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: ASSIGN02.elf
+ 
+arm-none-eabi-objdump -h -S  ASSIGN02.elf  > "ASSIGN02.list"
+arm-none-eabi-objcopy  -O binary  ASSIGN02.elf  "ASSIGN02.bin"
+arm-none-eabi-size   ASSIGN02.elf 
+   text	   data	    bss	    dec	    hex	filename
+  29992	    152	   3432	  33576	   8328	ASSIGN02.elf
+Finished building: default.size.stdout
+ 
+Finished building: ASSIGN02.bin
+ 
+Finished building: ASSIGN02.list
+ 
+16:10:26 **** Incremental Build of configuration Debug for project ASSIGN02 ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DDEBUG -DSTM32F407xx -c -I../USB_HOST/App -I../USB_HOST/Target -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Middlewares/ST/STM32_USB_Host_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Inc -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'debounce':
+../Core/Src/main.c:158:6: warning: variable 'joyStatePreviousStatus' set but not used [-Wunused-but-set-variable]
+  int joyStatePreviousStatus[5];
+      ^~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:156:8: warning: unused variable 'b' [-Wunused-variable]
+  float b;
+        ^
+../Core/Src/main.c:155:8: warning: unused variable 'a' [-Wunused-variable]
+  float a;
+        ^
+arm-none-eabi-gcc -o "ASSIGN02.elf" @"objects.list"   -mcpu=cortex-m4 -T"U:\2021\ELEC2720\A2\ASSIGN02\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="ASSIGN02.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: ASSIGN02.elf
+ 
+arm-none-eabi-objdump -h -S  ASSIGN02.elf  > "ASSIGN02.list"
+arm-none-eabi-objcopy  -O binary  ASSIGN02.elf  "ASSIGN02.bin"
+arm-none-eabi-size   ASSIGN02.elf 
+   text	   data	    bss	    dec	    hex	filename
+  29804	    152	   3432	  33388	   826c	ASSIGN02.elf
+Finished building: default.size.stdout
+ 
+Finished building: ASSIGN02.bin
+ 
+Finished building: ASSIGN02.list
+ 
+16:12:15 **** Incremental Build of configuration Debug for project ASSIGN02 ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DDEBUG -DSTM32F407xx -c -I../USB_HOST/App -I../USB_HOST/Target -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Middlewares/ST/STM32_USB_Host_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Inc -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'debounce':
+../Core/Src/main.c:158:6: warning: variable 'joyStatePreviousStatus' set but not used [-Wunused-but-set-variable]
+  int joyStatePreviousStatus[5];
+      ^~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:156:8: warning: unused variable 'b' [-Wunused-variable]
+  float b;
+        ^
+../Core/Src/main.c:155:8: warning: unused variable 'a' [-Wunused-variable]
+  float a;
+        ^
+arm-none-eabi-gcc -o "ASSIGN02.elf" @"objects.list"   -mcpu=cortex-m4 -T"U:\2021\ELEC2720\A2\ASSIGN02\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="ASSIGN02.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: ASSIGN02.elf
+ 
+arm-none-eabi-objdump -h -S  ASSIGN02.elf  > "ASSIGN02.list"
+arm-none-eabi-objcopy  -O binary  ASSIGN02.elf  "ASSIGN02.bin"
+arm-none-eabi-size   ASSIGN02.elf 
+   text	   data	    bss	    dec	    hex	filename
+  30008	    152	   3432	  33592	   8338	ASSIGN02.elf
+Finished building: default.size.stdout
+ 
+Finished building: ASSIGN02.bin
+ 
+Finished building: ASSIGN02.list
+ 
+16:15:01 **** Incremental Build of configuration Debug for project ASSIGN02 ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DDEBUG -DSTM32F407xx -c -I../USB_HOST/App -I../USB_HOST/Target -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Middlewares/ST/STM32_USB_Host_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Inc -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'debounce':
+../Core/Src/main.c:158:6: warning: variable 'joyStatePreviousStatus' set but not used [-Wunused-but-set-variable]
+  int joyStatePreviousStatus[5];
+      ^~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:156:8: warning: unused variable 'b' [-Wunused-variable]
+  float b;
+        ^
+../Core/Src/main.c:155:8: warning: unused variable 'a' [-Wunused-variable]
+  float a;
+        ^
+arm-none-eabi-gcc -o "ASSIGN02.elf" @"objects.list"   -mcpu=cortex-m4 -T"U:\2021\ELEC2720\A2\ASSIGN02\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="ASSIGN02.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: ASSIGN02.elf
+ 
+arm-none-eabi-objdump -h -S  ASSIGN02.elf  > "ASSIGN02.list"
+arm-none-eabi-objcopy  -O binary  ASSIGN02.elf  "ASSIGN02.bin"
+arm-none-eabi-size   ASSIGN02.elf 
+   text	   data	    bss	    dec	    hex	filename
+  30008	    152	   3432	  33592	   8338	ASSIGN02.elf
+Finished building: default.size.stdout
+ 
+Finished building: ASSIGN02.bin
+ 
+Finished building: ASSIGN02.list
+ 
+16:33:56 **** Incremental Build of configuration Debug for project ASSIGN02 ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DDEBUG -DSTM32F407xx -c -I../USB_HOST/App -I../USB_HOST/Target -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Middlewares/ST/STM32_USB_Host_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Inc -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'debounce':
+../Core/Src/main.c:173:6: warning: variable 'joyStatePreviousStatus' set but not used [-Wunused-but-set-variable]
+  int joyStatePreviousStatus[5];
+      ^~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:171:8: warning: unused variable 'b' [-Wunused-variable]
+  float b;
+        ^
+../Core/Src/main.c:170:8: warning: unused variable 'a' [-Wunused-variable]
+  float a;
+        ^
+arm-none-eabi-gcc -o "ASSIGN02.elf" @"objects.list"   -mcpu=cortex-m4 -T"U:\2021\ELEC2720\A2\ASSIGN02\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="ASSIGN02.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: ASSIGN02.elf
+ 
+arm-none-eabi-objdump -h -S  ASSIGN02.elf  > "ASSIGN02.list"
+arm-none-eabi-objcopy  -O binary  ASSIGN02.elf  "ASSIGN02.bin"
+arm-none-eabi-size   ASSIGN02.elf 
+   text	   data	    bss	    dec	    hex	filename
+  30128	    152	   3432	  33712	   83b0	ASSIGN02.elf
+Finished building: default.size.stdout
+ 
+Finished building: ASSIGN02.bin
+ 
+Finished building: ASSIGN02.list
+ 
+16:34:55 **** Incremental Build of configuration Debug for project ASSIGN02 ****
+make -j16 all 
+arm-none-eabi-size   ASSIGN02.elf 
+   text	   data	    bss	    dec	    hex	filename
+  30128	    152	   3432	  33712	   83b0	ASSIGN02.elf
+Finished building: default.size.stdout
+ 
+16:35:34 **** Incremental Build of configuration Debug for project ASSIGN02 ****
+make -j16 all 
+arm-none-eabi-size   ASSIGN02.elf 
+   text	   data	    bss	    dec	    hex	filename
+  30128	    152	   3432	  33712	   83b0	ASSIGN02.elf
+Finished building: default.size.stdout
+ 
+16:38:02 **** Incremental Build of configuration Debug for project ASSIGN02 ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DDEBUG -DSTM32F407xx -c -I../USB_HOST/App -I../USB_HOST/Target -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Middlewares/ST/STM32_USB_Host_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Inc -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'debounce':
+../Core/Src/main.c:173:6: warning: variable 'joyStatePreviousStatus' set but not used [-Wunused-but-set-variable]
+  int joyStatePreviousStatus[5];
+      ^~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:171:8: warning: unused variable 'b' [-Wunused-variable]
+  float b;
+        ^
+../Core/Src/main.c:170:8: warning: unused variable 'a' [-Wunused-variable]
+  float a;
+        ^
+arm-none-eabi-gcc -o "ASSIGN02.elf" @"objects.list"   -mcpu=cortex-m4 -T"U:\2021\ELEC2720\A2\ASSIGN02\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="ASSIGN02.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: ASSIGN02.elf
+ 
+arm-none-eabi-objdump -h -S  ASSIGN02.elf  > "ASSIGN02.list"
+arm-none-eabi-objcopy  -O binary  ASSIGN02.elf  "ASSIGN02.bin"
+arm-none-eabi-size   ASSIGN02.elf 
+   text	   data	    bss	    dec	    hex	filename
+  30164	    152	   3432	  33748	   83d4	ASSIGN02.elf
+Finished building: default.size.stdout
+ 
+Finished building: ASSIGN02.bin
+ 
+Finished building: ASSIGN02.list
+ 
+16:39:32 **** Incremental Build of configuration Debug for project ASSIGN02 ****
+make -j16 all 
+arm-none-eabi-size   ASSIGN02.elf 
+   text	   data	    bss	    dec	    hex	filename
+  30164	    152	   3432	  33748	   83d4	ASSIGN02.elf
+Finished building: default.size.stdout
+ 
+16:40:20 **** Incremental Build of configuration Debug for project ASSIGN02 ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DDEBUG -DSTM32F407xx -c -I../USB_HOST/App -I../USB_HOST/Target -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Middlewares/ST/STM32_USB_Host_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Inc -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'debounce':
+../Core/Src/main.c:173:6: warning: variable 'joyStatePreviousStatus' set but not used [-Wunused-but-set-variable]
+  int joyStatePreviousStatus[5];
+      ^~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:171:8: warning: unused variable 'b' [-Wunused-variable]
+  float b;
+        ^
+../Core/Src/main.c:170:8: warning: unused variable 'a' [-Wunused-variable]
+  float a;
+        ^
+arm-none-eabi-gcc -o "ASSIGN02.elf" @"objects.list"   -mcpu=cortex-m4 -T"U:\2021\ELEC2720\A2\ASSIGN02\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="ASSIGN02.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: ASSIGN02.elf
+ 
+arm-none-eabi-objdump -h -S  ASSIGN02.elf  > "ASSIGN02.list"
+arm-none-eabi-objcopy  -O binary  ASSIGN02.elf  "ASSIGN02.bin"
+arm-none-eabi-size   ASSIGN02.elf 
+   text	   data	    bss	    dec	    hex	filename
+  30188	    152	   3440	  33780	   83f4	ASSIGN02.elf
+Finished building: default.size.stdout
+ 
+Finished building: ASSIGN02.bin
+ 
+Finished building: ASSIGN02.list
+ 
+16:42:47 **** Incremental Build of configuration Debug for project ASSIGN02 ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DDEBUG -DSTM32F407xx -c -I../USB_HOST/App -I../USB_HOST/Target -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Middlewares/ST/STM32_USB_Host_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Inc -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'debounce':
+../Core/Src/main.c:173:6: warning: variable 'joyStatePreviousStatus' set but not used [-Wunused-but-set-variable]
+  int joyStatePreviousStatus[5];
+      ^~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:171:8: warning: unused variable 'b' [-Wunused-variable]
+  float b;
+        ^
+../Core/Src/main.c:170:8: warning: unused variable 'a' [-Wunused-variable]
+  float a;
+        ^
+arm-none-eabi-gcc -o "ASSIGN02.elf" @"objects.list"   -mcpu=cortex-m4 -T"U:\2021\ELEC2720\A2\ASSIGN02\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="ASSIGN02.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: ASSIGN02.elf
+ 
+arm-none-eabi-objdump -h -S  ASSIGN02.elf  > "ASSIGN02.list"
+arm-none-eabi-objcopy  -O binary  ASSIGN02.elf  "ASSIGN02.bin"
+arm-none-eabi-size   ASSIGN02.elf 
+   text	   data	    bss	    dec	    hex	filename
+  30188	    152	   3440	  33780	   83f4	ASSIGN02.elf
+Finished building: default.size.stdout
+ 
+Finished building: ASSIGN02.bin
+ 
+Finished building: ASSIGN02.list
+ 
+16:43:16 **** Incremental Build of configuration Debug for project ASSIGN02 ****
+make -j16 all 
+arm-none-eabi-size   ASSIGN02.elf 
+   text	   data	    bss	    dec	    hex	filename
+  30188	    152	   3440	  33780	   83f4	ASSIGN02.elf
+Finished building: default.size.stdout
+ 
+16:48:48 **** Incremental Build of configuration Debug for project ASSIGN02 ****
+make -j16 all 
+arm-none-eabi-size   ASSIGN02.elf 
+   text	   data	    bss	    dec	    hex	filename
+  30188	    152	   3440	  33780	   83f4	ASSIGN02.elf
+Finished building: default.size.stdout
+ 
+17:04:14 **** Incremental Build of configuration Debug for project ASSIGN02 ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DDEBUG -DSTM32F407xx -c -I../USB_HOST/App -I../USB_HOST/Target -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Middlewares/ST/STM32_USB_Host_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Inc -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'debounce':
+../Core/Src/main.c:189:9: warning: function returns address of local variable [-Wreturn-local-addr]
+  return y;
+         ^
+../Core/Src/main.c:173:6: warning: unused variable 'joyStatePreviousStatus' [-Wunused-variable]
+  int joyStatePreviousStatus[5];
+      ^~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c: In function 'StateMachine':
+../Core/Src/main.c:194:28: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+     int * joyStateStatus = debounce();
+                            ^~~~~~~~
+arm-none-eabi-gcc -o "ASSIGN02.elf" @"objects.list"   -mcpu=cortex-m4 -T"U:\2021\ELEC2720\A2\ASSIGN02\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="ASSIGN02.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: ASSIGN02.elf
+ 
+arm-none-eabi-objdump -h -S  ASSIGN02.elf  > "ASSIGN02.list"
+arm-none-eabi-objcopy  -O binary  ASSIGN02.elf  "ASSIGN02.bin"
+arm-none-eabi-size   ASSIGN02.elf 
+   text	   data	    bss	    dec	    hex	filename
+  30384	    152	   3440	  33976	   84b8	ASSIGN02.elf
+Finished building: default.size.stdout
+ 
+Finished building: ASSIGN02.bin
+ 
+Finished building: ASSIGN02.list
+ 
+17:09:41 **** Incremental Build of configuration Debug for project ASSIGN02 ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DDEBUG -DSTM32F407xx -c -I../USB_HOST/App -I../USB_HOST/Target -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Middlewares/ST/STM32_USB_Host_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Inc -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'StateMachine':
+../Core/Src/main.c:194:5: error: too few arguments to function 'debounce'
+     debounce(joyStateStatus);
+     ^~~~~~~~
+../Core/Src/main.c:168:6: note: declared here
+ void debounce(float y[],int size)
+      ^~~~~~~~
+make: *** [Core/Src/subdir.mk:38: Core/Src/main.o] Error 1
+"make -j16 all" terminated with exit code 2. Build might be incomplete.
+17:10:08 **** Incremental Build of configuration Debug for project ASSIGN02 ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DDEBUG -DSTM32F407xx -c -I../USB_HOST/App -I../USB_HOST/Target -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Middlewares/ST/STM32_USB_Host_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Inc -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "ASSIGN02.elf" @"objects.list"   -mcpu=cortex-m4 -T"U:\2021\ELEC2720\A2\ASSIGN02\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="ASSIGN02.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: ASSIGN02.elf
+ 
+arm-none-eabi-objdump -h -S  ASSIGN02.elf  > "ASSIGN02.list"
+arm-none-eabi-objcopy  -O binary  ASSIGN02.elf  "ASSIGN02.bin"
+arm-none-eabi-size   ASSIGN02.elf 
+   text	   data	    bss	    dec	    hex	filename
+  30420	    152	   3440	  34012	   84dc	ASSIGN02.elf
+Finished building: default.size.stdout
+ 
+Finished building: ASSIGN02.bin
+ 
+Finished building: ASSIGN02.list
+ 
+17:13:00 **** Incremental Build of configuration Debug for project ASSIGN02 ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DDEBUG -DSTM32F407xx -c -I../USB_HOST/App -I../USB_HOST/Target -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Middlewares/ST/STM32_USB_Host_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Inc -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "ASSIGN02.elf" @"objects.list"   -mcpu=cortex-m4 -T"U:\2021\ELEC2720\A2\ASSIGN02\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="ASSIGN02.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: ASSIGN02.elf
+ 
+arm-none-eabi-objdump -h -S  ASSIGN02.elf  > "ASSIGN02.list"
+arm-none-eabi-objcopy  -O binary  ASSIGN02.elf  "ASSIGN02.bin"
+arm-none-eabi-size   ASSIGN02.elf 
+   text	   data	    bss	    dec	    hex	filename
+  30452	    152	   3440	  34044	   84fc	ASSIGN02.elf
+Finished building: default.size.stdout
+ 
+Finished building: ASSIGN02.bin
+ 
+Finished building: ASSIGN02.list
+ 
+17:14:43 **** Incremental Build of configuration Debug for project ASSIGN02 ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DDEBUG -DSTM32F407xx -c -I../USB_HOST/App -I../USB_HOST/Target -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Middlewares/ST/STM32_USB_Host_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Inc -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "ASSIGN02.elf" @"objects.list"   -mcpu=cortex-m4 -T"U:\2021\ELEC2720\A2\ASSIGN02\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="ASSIGN02.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: ASSIGN02.elf
+ 
+arm-none-eabi-objdump -h -S  ASSIGN02.elf  > "ASSIGN02.list"
+arm-none-eabi-objcopy  -O binary  ASSIGN02.elf  "ASSIGN02.bin"
+arm-none-eabi-size   ASSIGN02.elf 
+   text	   data	    bss	    dec	    hex	filename
+  30452	    152	   3440	  34044	   84fc	ASSIGN02.elf
+Finished building: default.size.stdout
+ 
+Finished building: ASSIGN02.bin
+ 
+Finished building: ASSIGN02.list
+ 
+17:17:30 **** Incremental Build of configuration Debug for project ASSIGN02 ****
+make -j16 all 
+arm-none-eabi-size   ASSIGN02.elf 
+   text	   data	    bss	    dec	    hex	filename
+  30452	    152	   3440	  34044	   84fc	ASSIGN02.elf
+Finished building: default.size.stdout
+ 
+17:49:52 **** Incremental Build of configuration Debug for project ASSIGN02 ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DDEBUG -DSTM32F407xx -c -I../USB_HOST/App -I../USB_HOST/Target -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Middlewares/ST/STM32_USB_Host_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Inc -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'readJoysticks2':
+../Core/Src/main.c:186:14: error: 'JOY_A_PIN' undeclared (first use in this function); did you mean 'JOY_A_Pin'?
+  if(port_A & JOY_A_PIN == 0)
+              ^~~~~~~~~
+              JOY_A_Pin
+../Core/Src/main.c:186:14: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/main.c:191:14: error: 'JOY_B_PIN' undeclared (first use in this function); did you mean 'JOY_A_PIN'?
+  if(port_A & JOY_B_PIN == 0)
+              ^~~~~~~~~
+              JOY_A_PIN
+../Core/Src/main.c:197:14: error: 'JOY_C_PIN' undeclared (first use in this function); did you mean 'JOY_B_PIN'?
+  if(port_B & JOY_C_PIN == 0)
+              ^~~~~~~~~
+              JOY_B_PIN
+../Core/Src/main.c:203:14: error: 'JOY_D_PIN' undeclared (first use in this function); did you mean 'JOY_C_PIN'?
+  if(port_C & JOY_D_PIN == 0)
+              ^~~~~~~~~
+              JOY_C_PIN
+../Core/Src/main.c:208:14: error: 'JOY_CTR_PIN' undeclared (first use in this function); did you mean 'JOY_C_PIN'?
+  if(port_C & JOY_CTR_PIN == 0)
+              ^~~~~~~~~~~
+              JOY_C_PIN
+make: *** [Core/Src/subdir.mk:38: Core/Src/main.o] Error 1
+"make -j16 all" terminated with exit code 2. Build might be incomplete.
+17:52:08 **** Incremental Build of configuration Debug for project ASSIGN02 ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DDEBUG -DSTM32F407xx -c -I../USB_HOST/App -I../USB_HOST/Target -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Middlewares/ST/STM32_USB_Host_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Inc -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'readJoysticks2':
+../Core/Src/main.c:186:12: warning: suggest parentheses around comparison in operand of '&' [-Wparentheses]
+  if(port_A & GPIO_PIN_4 == 0)
+            ^
+../Core/Src/main.c:191:12: warning: suggest parentheses around comparison in operand of '&' [-Wparentheses]
+  if(port_A & GPIO_PIN_6 == 0)
+            ^
+../Core/Src/main.c:197:12: warning: suggest parentheses around comparison in operand of '&' [-Wparentheses]
+  if(port_B & GPIO_PIN_15 == 0)
+            ^
+../Core/Src/main.c:203:12: warning: suggest parentheses around comparison in operand of '&' [-Wparentheses]
+  if(port_C & GPIO_PIN_6 == 0)
+            ^
+../Core/Src/main.c:208:12: warning: suggest parentheses around comparison in operand of '&' [-Wparentheses]
+  if(port_C & GPIO_PIN_7 == 0)
+            ^
+arm-none-eabi-gcc -o "ASSIGN02.elf" @"objects.list"   -mcpu=cortex-m4 -T"U:\2021\ELEC2720\A2\ASSIGN02\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="ASSIGN02.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: ASSIGN02.elf
+ 
+arm-none-eabi-objdump -h -S  ASSIGN02.elf  > "ASSIGN02.list"
+arm-none-eabi-objcopy  -O binary  ASSIGN02.elf  "ASSIGN02.bin"
+arm-none-eabi-size   ASSIGN02.elf 
+   text	   data	    bss	    dec	    hex	filename
+  30464	    152	   3440	  34056	   8508	ASSIGN02.elf
+Finished building: default.size.stdout
+ 
+Finished building: ASSIGN02.bin
+ 
+Finished building: ASSIGN02.list
+ 
+17:54:54 **** Incremental Build of configuration Debug for project ASSIGN02 ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DDEBUG -DSTM32F407xx -c -I../USB_HOST/App -I../USB_HOST/Target -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Middlewares/ST/STM32_USB_Host_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Inc -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'readJoysticks2':
+../Core/Src/main.c:186:12: warning: suggest parentheses around comparison in operand of '&' [-Wparentheses]
+  if(port_A & GPIO_PIN_4 == 0){
+            ^
+../Core/Src/main.c:193:12: warning: suggest parentheses around comparison in operand of '&' [-Wparentheses]
+  if(port_A & GPIO_PIN_6 == 0){
+            ^
+../Core/Src/main.c:201:12: warning: suggest parentheses around comparison in operand of '&' [-Wparentheses]
+  if(port_B & GPIO_PIN_15 == 0){
+            ^
+../Core/Src/main.c:209:12: warning: suggest parentheses around comparison in operand of '&' [-Wparentheses]
+  if(port_C & GPIO_PIN_6 == 0){
+            ^
+../Core/Src/main.c:217:12: warning: suggest parentheses around comparison in operand of '&' [-Wparentheses]
+  if(port_C & GPIO_PIN_7 == 0){
+            ^
+arm-none-eabi-gcc -o "ASSIGN02.elf" @"objects.list"   -mcpu=cortex-m4 -T"U:\2021\ELEC2720\A2\ASSIGN02\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="ASSIGN02.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: ASSIGN02.elf
+ 
+arm-none-eabi-objdump -h -S  ASSIGN02.elf  > "ASSIGN02.list"
+arm-none-eabi-objcopy  -O binary  ASSIGN02.elf  "ASSIGN02.bin"
+arm-none-eabi-size   ASSIGN02.elf 
+   text	   data	    bss	    dec	    hex	filename
+  30464	    152	   3440	  34056	   8508	ASSIGN02.elf
+Finished building: default.size.stdout
+ 
+Finished building: ASSIGN02.bin
+ 
+Finished building: ASSIGN02.list
+ 
+17:57:48 **** Incremental Build of configuration Debug for project ASSIGN02 ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DDEBUG -DSTM32F407xx -c -I../USB_HOST/App -I../USB_HOST/Target -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Middlewares/ST/STM32_USB_Host_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Inc -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "ASSIGN02.elf" @"objects.list"   -mcpu=cortex-m4 -T"U:\2021\ELEC2720\A2\ASSIGN02\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="ASSIGN02.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: ASSIGN02.elf
+ 
+arm-none-eabi-objdump -h -S  ASSIGN02.elf  > "ASSIGN02.list"
+arm-none-eabi-objcopy  -O binary  ASSIGN02.elf  "ASSIGN02.bin"
+arm-none-eabi-size   ASSIGN02.elf 
+   text	   data	    bss	    dec	    hex	filename
+  30544	    152	   3440	  34136	   8558	ASSIGN02.elf
+Finished building: default.size.stdout
+ 
+Finished building: ASSIGN02.bin
+ 
+Finished building: ASSIGN02.list
+ 
+17:59:24 **** Incremental Build of configuration Debug for project ASSIGN02 ****
+make -j16 all 
+arm-none-eabi-size   ASSIGN02.elf 
+   text	   data	    bss	    dec	    hex	filename
+  30544	    152	   3440	  34136	   8558	ASSIGN02.elf
+Finished building: default.size.stdout
+ 
+18:11:21 **** Incremental Build of configuration Debug for project ASSIGN02 ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DDEBUG -DSTM32F407xx -c -I../USB_HOST/App -I../USB_HOST/Target -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Middlewares/ST/STM32_USB_Host_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Inc -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'WriteLED':
+../Core/Src/main.c:340:6: warning: unused variable 'port_D_ODR' [-Wunused-variable]
+  int port_D_ODR = GPIOD->ODR;
+      ^~~~~~~~~~
+arm-none-eabi-gcc -o "ASSIGN02.elf" @"objects.list"   -mcpu=cortex-m4 -T"U:\2021\ELEC2720\A2\ASSIGN02\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="ASSIGN02.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: ASSIGN02.elf
+ 
+arm-none-eabi-objdump -h -S  ASSIGN02.elf  > "ASSIGN02.list"
+arm-none-eabi-objcopy  -O binary  ASSIGN02.elf  "ASSIGN02.bin"
+arm-none-eabi-size   ASSIGN02.elf 
+   text	   data	    bss	    dec	    hex	filename
+  30616	    152	   3440	  34208	   85a0	ASSIGN02.elf
+Finished building: default.size.stdout
+ 
+Finished building: ASSIGN02.bin
+ 
+Finished building: ASSIGN02.list
+ 
+18:25:46 **** Incremental Build of configuration Debug for project ASSIGN02 ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DDEBUG -DSTM32F407xx -c -I../USB_HOST/App -I../USB_HOST/Target -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Middlewares/ST/STM32_USB_Host_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Inc -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'WriteLED':
+../Core/Src/main.c:350:2: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'switch'
+  switch (LED_Colour) {
+  ^~~~~~
+../Core/Src/main.c:352:4: error: 'gpioPin' undeclared (first use in this function)
+    gpioPin = GPIO_PIN_12;
+    ^~~~~~~
+../Core/Src/main.c:352:4: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/main.c:365:15: error: 'GPIO' undeclared (first use in this function); did you mean 'GPIOH'?
+  GPIOD->ODR = GPIO-ODR & gpioPin;
+               ^~~~
+               GPIOH
+../Core/Src/main.c:365:20: error: 'ODR' undeclared (first use in this function)
+  GPIOD->ODR = GPIO-ODR & gpioPin;
+                    ^~~
+make: *** [Core/Src/subdir.mk:38: Core/Src/main.o] Error 1
+"make -j16 all" terminated with exit code 2. Build might be incomplete.
+18:26:33 **** Incremental Build of configuration Debug for project ASSIGN02 ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DDEBUG -DSTM32F407xx -c -I../USB_HOST/App -I../USB_HOST/Target -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Middlewares/ST/STM32_USB_Host_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Inc -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'WriteLED':
+../Core/Src/main.c:365:15: error: 'GPIO' undeclared (first use in this function); did you mean 'GPIOH'?
+  GPIOD->ODR = GPIO-ODR & gpioPin;
+               ^~~~
+               GPIOH
+../Core/Src/main.c:365:15: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/main.c:365:20: error: 'ODR' undeclared (first use in this function)
+  GPIOD->ODR = GPIO-ODR & gpioPin;
+                    ^~~
+make: *** [Core/Src/subdir.mk:38: Core/Src/main.o] Error 1
+"make -j16 all" terminated with exit code 2. Build might be incomplete.
+18:27:14 **** Incremental Build of configuration Debug for project ASSIGN02 ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DDEBUG -DSTM32F407xx -c -I../USB_HOST/App -I../USB_HOST/Target -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Middlewares/ST/STM32_USB_Host_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Inc -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'WriteLED':
+../Core/Src/main.c:365:15: error: 'GPIO' undeclared (first use in this function); did you mean 'GPIOH'?
+  GPIOD->ODR = GPIO->ODR & gpioPin;
+               ^~~~
+               GPIOH
+../Core/Src/main.c:365:15: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [Core/Src/subdir.mk:38: Core/Src/main.o] Error 1
+"make -j16 all" terminated with exit code 2. Build might be incomplete.
+18:28:08 **** Incremental Build of configuration Debug for project ASSIGN02 ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DDEBUG -DSTM32F407xx -c -I../USB_HOST/App -I../USB_HOST/Target -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Middlewares/ST/STM32_USB_Host_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Inc -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'WriteLED':
+../Core/Src/main.c:365:15: error: 'GPIO' undeclared (first use in this function); did you mean 'GPIOH'?
+  GPIOD->ODR = GPIO->ODR & gpioPin;
+               ^~~~
+               GPIOH
+../Core/Src/main.c:365:15: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [Core/Src/subdir.mk:38: Core/Src/main.o] Error 1
+"make -j16 all" terminated with exit code 2. Build might be incomplete.
+18:28:23 **** Incremental Build of configuration Debug for project ASSIGN02 ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DDEBUG -DSTM32F407xx -c -I../USB_HOST/App -I../USB_HOST/Target -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Middlewares/ST/STM32_USB_Host_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Inc -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "ASSIGN02.elf" @"objects.list"   -mcpu=cortex-m4 -T"U:\2021\ELEC2720\A2\ASSIGN02\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="ASSIGN02.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: ASSIGN02.elf
+ 
+arm-none-eabi-objdump -h -S  ASSIGN02.elf  > "ASSIGN02.list"
+arm-none-eabi-objcopy  -O binary  ASSIGN02.elf  "ASSIGN02.bin"
+arm-none-eabi-size   ASSIGN02.elf 
+   text	   data	    bss	    dec	    hex	filename
+  29756	    152	   3432	  33340	   823c	ASSIGN02.elf
+Finished building: default.size.stdout
+ 
+Finished building: ASSIGN02.bin
+ 
+Finished building: ASSIGN02.list
+ 
+18:42:37 **** Incremental Build of configuration Debug for project ASSIGN02 ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DDEBUG -DSTM32F407xx -c -I../USB_HOST/App -I../USB_HOST/Target -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Middlewares/ST/STM32_USB_Host_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Inc -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'WriteLED':
+../Core/Src/main.c:365:24: error: 'gpioPIN' undeclared (first use in this function); did you mean 'gpioPin'?
+  int a = (GPIOD->ODR & gpioPIN);
+                        ^~~~~~~
+                        gpioPin
+../Core/Src/main.c:365:24: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/main.c:365:6: warning: unused variable 'a' [-Wunused-variable]
+  int a = (GPIOD->ODR & gpioPIN);
+      ^
+make: *** [Core/Src/subdir.mk:38: Core/Src/main.o] Error 1
+"make -j16 all" terminated with exit code 2. Build might be incomplete.
+18:43:20 **** Incremental Build of configuration Debug for project ASSIGN02 ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DDEBUG -DSTM32F407xx -c -I../USB_HOST/App -I../USB_HOST/Target -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Middlewares/ST/STM32_USB_Host_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Inc -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'WriteLED':
+../Core/Src/main.c:366:19: error: 'gpioPIN' undeclared (first use in this function); did you mean 'gpioPin'?
+  if((GPIOD->ODR & gpioPIN) == GPIOD->ODR){
+                   ^~~~~~~
+                   gpioPin
+../Core/Src/main.c:366:19: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/main.c:365:6: warning: unused variable 'a' [-Wunused-variable]
+  int a = (GPIOD->ODR & gpioPin);
+      ^
+make: *** [Core/Src/subdir.mk:38: Core/Src/main.o] Error 1
+"make -j16 all" terminated with exit code 2. Build might be incomplete.
+18:43:52 **** Incremental Build of configuration Debug for project ASSIGN02 ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DDEBUG -DSTM32F407xx -c -I../USB_HOST/App -I../USB_HOST/Target -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Middlewares/ST/STM32_USB_Host_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Inc -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'WriteLED':
+../Core/Src/main.c:365:6: warning: unused variable 'a' [-Wunused-variable]
+  int a = (GPIOD->ODR & gpioPin);
+      ^
+arm-none-eabi-gcc -o "ASSIGN02.elf" @"objects.list"   -mcpu=cortex-m4 -T"U:\2021\ELEC2720\A2\ASSIGN02\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="ASSIGN02.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: ASSIGN02.elf
+ 
+arm-none-eabi-objdump -h -S  ASSIGN02.elf  > "ASSIGN02.list"
+arm-none-eabi-objcopy  -O binary  ASSIGN02.elf  "ASSIGN02.bin"
+arm-none-eabi-size   ASSIGN02.elf 
+   text	   data	    bss	    dec	    hex	filename
+  29884	    152	   3432	  33468	   82bc	ASSIGN02.elf
+Finished building: default.size.stdout
+ 
+Finished building: ASSIGN02.bin
+ 
+Finished building: ASSIGN02.list
+ 
+18:47:40 **** Incremental Build of configuration Debug for project ASSIGN02 ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DDEBUG -DSTM32F407xx -c -I../USB_HOST/App -I../USB_HOST/Target -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Middlewares/ST/STM32_USB_Host_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Inc -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'WriteLED':
+../Core/Src/main.c:365:6: warning: unused variable 'a' [-Wunused-variable]
+  int a = (GPIOD->ODR & gpioPin);
+      ^
+arm-none-eabi-gcc -o "ASSIGN02.elf" @"objects.list"   -mcpu=cortex-m4 -T"U:\2021\ELEC2720\A2\ASSIGN02\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="ASSIGN02.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: ASSIGN02.elf
+ 
+arm-none-eabi-objdump -h -S  ASSIGN02.elf  > "ASSIGN02.list"
+arm-none-eabi-objcopy  -O binary  ASSIGN02.elf  "ASSIGN02.bin"
+arm-none-eabi-size   ASSIGN02.elf 
+   text	   data	    bss	    dec	    hex	filename
+  29900	    152	   3432	  33484	   82cc	ASSIGN02.elf
+Finished building: default.size.stdout
+ 
+Finished building: ASSIGN02.bin
+ 
+Finished building: ASSIGN02.list
+ 
+18:56:36 **** Incremental Build of configuration Debug for project ASSIGN02 ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DDEBUG -DSTM32F407xx -c -I../USB_HOST/App -I../USB_HOST/Target -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Middlewares/ST/STM32_USB_Host_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Inc -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'WriteLED':
+../Core/Src/main.c:365:6: warning: unused variable 'a' [-Wunused-variable]
+  int a = (GPIOD->ODR & gpioPin);
+      ^
+arm-none-eabi-gcc -o "ASSIGN02.elf" @"objects.list"   -mcpu=cortex-m4 -T"U:\2021\ELEC2720\A2\ASSIGN02\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="ASSIGN02.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: ASSIGN02.elf
+ 
+arm-none-eabi-objdump -h -S  ASSIGN02.elf  > "ASSIGN02.list"
+arm-none-eabi-objcopy  -O binary  ASSIGN02.elf  "ASSIGN02.bin"
+arm-none-eabi-size   ASSIGN02.elf 
+   text	   data	    bss	    dec	    hex	filename
+  29888	    152	   3432	  33472	   82c0	ASSIGN02.elf
+Finished building: default.size.stdout
+ 
+Finished building: ASSIGN02.bin
+ 
+Finished building: ASSIGN02.list
+ 
+18:57:48 **** Incremental Build of configuration Debug for project ASSIGN02 ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DDEBUG -DSTM32F407xx -c -I../USB_HOST/App -I../USB_HOST/Target -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Middlewares/ST/STM32_USB_Host_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Inc -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'WriteLED':
+../Core/Src/main.c:365:6: warning: unused variable 'a' [-Wunused-variable]
+  int a = (GPIOD->ODR & gpioPin);
+      ^
+arm-none-eabi-gcc -o "ASSIGN02.elf" @"objects.list"   -mcpu=cortex-m4 -T"U:\2021\ELEC2720\A2\ASSIGN02\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="ASSIGN02.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: ASSIGN02.elf
+ 
+arm-none-eabi-objdump -h -S  ASSIGN02.elf  > "ASSIGN02.list"
+arm-none-eabi-objcopy  -O binary  ASSIGN02.elf  "ASSIGN02.bin"
+arm-none-eabi-size   ASSIGN02.elf 
+   text	   data	    bss	    dec	    hex	filename
+  29876	    152	   3432	  33460	   82b4	ASSIGN02.elf
+Finished building: default.size.stdout
+ 
+Finished building: ASSIGN02.bin
+ 
+Finished building: ASSIGN02.list
+ 
+18:59:53 **** Incremental Build of configuration Debug for project ASSIGN02 ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DDEBUG -DSTM32F407xx -c -I../USB_HOST/App -I../USB_HOST/Target -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Middlewares/ST/STM32_USB_Host_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Inc -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'WriteLED':
+../Core/Src/main.c:366:6: warning: unused variable 'b' [-Wunused-variable]
+  int b = (GPIOD->ODR & gpioPin);
+      ^
+../Core/Src/main.c:365:6: warning: unused variable 'a' [-Wunused-variable]
+  int a = GPIOD->ODR;
+      ^
+arm-none-eabi-gcc -o "ASSIGN02.elf" @"objects.list"   -mcpu=cortex-m4 -T"U:\2021\ELEC2720\A2\ASSIGN02\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="ASSIGN02.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: ASSIGN02.elf
+ 
+arm-none-eabi-objdump -h -S  ASSIGN02.elf  > "ASSIGN02.list"
+arm-none-eabi-objcopy  -O binary  ASSIGN02.elf  "ASSIGN02.bin"
+arm-none-eabi-size   ASSIGN02.elf 
+   text	   data	    bss	    dec	    hex	filename
+  29880	    152	   3432	  33464	   82b8	ASSIGN02.elf
+Finished building: default.size.stdout
+ 
+Finished building: ASSIGN02.bin
+ 
+Finished building: ASSIGN02.list
+ 
+19:07:21 **** Incremental Build of configuration Debug for project ASSIGN02 ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DDEBUG -DSTM32F407xx -c -I../USB_HOST/App -I../USB_HOST/Target -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Middlewares/ST/STM32_USB_Host_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Inc -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'WriteLED':
+../Core/Src/main.c:368:6: warning: unused variable 'b' [-Wunused-variable]
+  int b = (GPIOD->ODR & gpioPin);
+      ^
+../Core/Src/main.c:367:6: warning: unused variable 'a' [-Wunused-variable]
+  int a = GPIOD->ODR;
+      ^
+arm-none-eabi-gcc -o "ASSIGN02.elf" @"objects.list"   -mcpu=cortex-m4 -T"U:\2021\ELEC2720\A2\ASSIGN02\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="ASSIGN02.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: ASSIGN02.elf
+ 
+arm-none-eabi-objdump -h -S  ASSIGN02.elf  > "ASSIGN02.list"
+arm-none-eabi-objcopy  -O binary  ASSIGN02.elf  "ASSIGN02.bin"
+arm-none-eabi-size   ASSIGN02.elf 
+   text	   data	    bss	    dec	    hex	filename
+  29912	    152	   3432	  33496	   82d8	ASSIGN02.elf
+Finished building: default.size.stdout
+ 
+Finished building: ASSIGN02.bin
+ 
+Finished building: ASSIGN02.list
+ 
+19:08:18 **** Incremental Build of configuration Debug for project ASSIGN02 ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DDEBUG -DSTM32F407xx -c -I../USB_HOST/App -I../USB_HOST/Target -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Middlewares/ST/STM32_USB_Host_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Inc -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:163:3: error: expected ';' before '}' token
+   }
+   ^
+../Core/Src/main.c: In function 'WriteLED':
+../Core/Src/main.c:369:6: warning: unused variable 'b' [-Wunused-variable]
+  int b = (GPIOD->ODR & gpioPin);
+      ^
+../Core/Src/main.c:368:6: warning: unused variable 'a' [-Wunused-variable]
+  int a = GPIOD->ODR;
+      ^
+make: *** [Core/Src/subdir.mk:38: Core/Src/main.o] Error 1
+"make -j16 all" terminated with exit code 2. Build might be incomplete.
+19:08:47 **** Incremental Build of configuration Debug for project ASSIGN02 ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DDEBUG -DSTM32F407xx -c -I../USB_HOST/App -I../USB_HOST/Target -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Middlewares/ST/STM32_USB_Host_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Inc -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'WriteLED':
+../Core/Src/main.c:369:6: warning: unused variable 'b' [-Wunused-variable]
+  int b = (GPIOD->ODR & gpioPin);
+      ^
+../Core/Src/main.c:368:6: warning: unused variable 'a' [-Wunused-variable]
+  int a = GPIOD->ODR;
+      ^
+arm-none-eabi-gcc -o "ASSIGN02.elf" @"objects.list"   -mcpu=cortex-m4 -T"U:\2021\ELEC2720\A2\ASSIGN02\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="ASSIGN02.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: ASSIGN02.elf
+ 
+arm-none-eabi-objdump -h -S  ASSIGN02.elf  > "ASSIGN02.list"
+arm-none-eabi-objcopy  -O binary  ASSIGN02.elf  "ASSIGN02.bin"
+arm-none-eabi-size   ASSIGN02.elf 
+   text	   data	    bss	    dec	    hex	filename
+  29848	    152	   3432	  33432	   8298	ASSIGN02.elf
+Finished building: default.size.stdout
+ 
+Finished building: ASSIGN02.bin
+ 
+Finished building: ASSIGN02.list
+ 
+19:09:30 **** Incremental Build of configuration Debug for project ASSIGN02 ****
+make -j16 all 
+arm-none-eabi-size   ASSIGN02.elf 
+   text	   data	    bss	    dec	    hex	filename
+  29848	    152	   3432	  33432	   8298	ASSIGN02.elf
+Finished building: default.size.stdout
+ 
+19:19:35 **** Incremental Build of configuration Debug for project ASSIGN02 ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DDEBUG -DSTM32F407xx -c -I../USB_HOST/App -I../USB_HOST/Target -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Middlewares/ST/STM32_USB_Host_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Inc -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'setAllLedOff2':
+../Core/Src/main.c:433:18: error: 'OFF' undeclared (first use in this function)
+  WriteLED(GREEN, OFF); //left
+                  ^~~
+../Core/Src/main.c:433:18: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/main.c: In function 'setLeftLedOn2':
+../Core/Src/main.c:438:18: error: 'OFF' undeclared (first use in this function)
+  WriteLED(GREEN, OFF); //left
+                  ^~~
+../Core/Src/main.c: In function 'setRightLedOn2':
+../Core/Src/main.c:443:18: error: 'OFF' undeclared (first use in this function)
+  WriteLED(GREEN, OFF); //left
+                  ^~~
+make: *** [Core/Src/subdir.mk:38: Core/Src/main.o] Error 1
+"make -j16 all" terminated with exit code 2. Build might be incomplete.
+19:20:41 **** Incremental Build of configuration Debug for project ASSIGN02 ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DDEBUG -DSTM32F407xx -c -I../USB_HOST/App -I../USB_HOST/Target -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Middlewares/ST/STM32_USB_Host_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Inc -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "ASSIGN02.elf" @"objects.list"   -mcpu=cortex-m4 -T"U:\2021\ELEC2720\A2\ASSIGN02\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="ASSIGN02.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: ASSIGN02.elf
+ 
+arm-none-eabi-objdump -h -S  ASSIGN02.elf  > "ASSIGN02.list"
+arm-none-eabi-objcopy  -O binary  ASSIGN02.elf  "ASSIGN02.bin"
+arm-none-eabi-size   ASSIGN02.elf 
+   text	   data	    bss	    dec	    hex	filename
+  30628	    152	   3440	  34220	   85ac	ASSIGN02.elf
+Finished building: default.size.stdout
+ 
+Finished building: ASSIGN02.bin
+ 
+Finished building: ASSIGN02.list
+ 
+19:22:16 **** Incremental Build of configuration Debug for project ASSIGN02 ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DDEBUG -DSTM32F407xx -c -I../USB_HOST/App -I../USB_HOST/Target -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Middlewares/ST/STM32_USB_Host_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Inc -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "ASSIGN02.elf" @"objects.list"   -mcpu=cortex-m4 -T"U:\2021\ELEC2720\A2\ASSIGN02\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="ASSIGN02.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: ASSIGN02.elf
+ 
+arm-none-eabi-objdump -h -S  ASSIGN02.elf  > "ASSIGN02.list"
+arm-none-eabi-objcopy  -O binary  ASSIGN02.elf  "ASSIGN02.bin"
+arm-none-eabi-size   ASSIGN02.elf 
+   text	   data	    bss	    dec	    hex	filename
+  30624	    152	   3440	  34216	   85a8	ASSIGN02.elf
+Finished building: default.size.stdout
+ 
+Finished building: ASSIGN02.bin
+ 
+Finished building: ASSIGN02.list
+ 
+19:25:24 **** Incremental Build of configuration Debug for project ASSIGN02 ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DDEBUG -DSTM32F407xx -c -I../USB_HOST/App -I../USB_HOST/Target -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Middlewares/ST/STM32_USB_Host_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Inc -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "ASSIGN02.elf" @"objects.list"   -mcpu=cortex-m4 -T"U:\2021\ELEC2720\A2\ASSIGN02\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="ASSIGN02.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: ASSIGN02.elf
+ 
+arm-none-eabi-objdump -h -S  ASSIGN02.elf  > "ASSIGN02.list"
+arm-none-eabi-objcopy  -O binary  ASSIGN02.elf  "ASSIGN02.bin"
+arm-none-eabi-size   ASSIGN02.elf 
+   text	   data	    bss	    dec	    hex	filename
+  30628	    152	   3440	  34220	   85ac	ASSIGN02.elf
+Finished building: default.size.stdout
+ 
+Finished building: ASSIGN02.bin
+ 
+Finished building: ASSIGN02.list
+ 

@@ -1,0 +1,20 @@
+16:31:42 **** Incremental Build of configuration Debug for project temp ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/Ass-01-Functions.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DDEBUG -DSTM32F407xx -c -I../USB_HOST/App -I../USB_HOST/Target -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Middlewares/ST/STM32_USB_Host_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Inc -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/Ass-01-Functions.d" -MT"Core/Src/Ass-01-Functions.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Ass-01-Functions.o"
+arm-none-eabi-gcc -o "temp.elf" @"objects.list"   -mcpu=cortex-m4 -T"U:\2021\ELEC2720\temp\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="temp.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -u _scanf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: temp.elf
+ 
+arm-none-eabi-objdump -h -S  temp.elf  > "temp.list"
+arm-none-eabi-objcopy  -O binary  temp.elf  "temp.bin"
+arm-none-eabi-size   temp.elf 
+   text	   data	    bss	    dec	    hex	filename
+  57340	    520	   3600	  61460	   f014	temp.elf
+Finished building: default.size.stdout
+ 
+Finished building: temp.bin
+ 
+Finished building: temp.list
+ 
+
+16:32:05 Build Finished. 0 errors, 0 warnings. (took 22s.238ms)
+

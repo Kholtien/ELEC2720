@@ -1,0 +1,16 @@
+/*
+ * colton.c
+ *
+ *  Created on: 29 Mar 2021
+ *      Author: c3267533
+ */
+
+
+int * readJoysticks()
+{
+	static int joyStickState[5];
+	GPIO_PinState joy_a_status = HAL_GPIO_ReadPin(JOY_A_GPIO_Port, JOY_A_Pin);
+	GPIO_PinState joy_b_status = HAL_GPIO_ReadPin(JOY_B_GPIO_Port, JOY_B_Pin);
+	GPIO_PinState joy_c_status = HAL_GPIO_ReadPin(JOY_C_GPIO_Port, JOY_C_Pin);
+	GPIO_PinState joy_d_status = HAL_GPIO_ReadPin(JOY_D_GPIO_Port, JOY_D_Pin);
+}

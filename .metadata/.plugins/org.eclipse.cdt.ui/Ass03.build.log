@@ -1,0 +1,41 @@
+19:57:52 **** Incremental Build of configuration Debug for project Ass03 ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/colton.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/colton.d" -MT"Core/Src/colton.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/colton.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+In file included from ../Core/Src/colton.c:8:
+../Core/Inc/usart_io_retarget.h:13:27: error: unknown type name 'UART_HandleTypeDef'
+   13 | extern void my_USART_Init(UART_HandleTypeDef *pHuartAct);
+      |                           ^~~~~~~~~~~~~~~~~~
+../Core/Src/colton.c: In function 'assMain':
+../Core/Src/colton.c:19:10: warning: unused variable 'rec_data' [-Wunused-variable]
+   19 |  uint8_t rec_data[4];
+      |          ^~~~~~~~
+../Core/Src/colton.c:18:10: warning: unused variable 'data' [-Wunused-variable]
+   18 |  uint8_t data[] = "Hello Cruel World\n";
+      |          ^~~~
+make: *** [Core/Src/subdir.mk:40: Core/Src/colton.o] Error 1
+make: *** Waiting for unfinished jobs....
+In file included from ../Core/Src/main.c:28:
+../Core/Inc/colton.h:17:2: error: unknown type name 'stRX_SERIAL_CHANNELTypeDef'
+   17 |  stRX_SERIAL_CHANNELTypeDef * pstRxChannel ; // Pointer to the RX data structure
+      |  ^~~~~~~~~~~~~~~~~~~~~~~~~~
+../Core/Inc/colton.h:18:2: error: unknown type name 'stTX_SERIAL_CHANNELTypeDef'
+   18 |  stTX_SERIAL_CHANNELTypeDef * pstTxChannel ; // Pointer to the TX data structure
+      |  ^~~~~~~~~~~~~~~~~~~~~~~~~~
+../Core/Inc/colton.h:35:12: error: field 'boHysteresisActive' has incomplete type
+   35 |  enum BOOL boHysteresisActive ;     // True if waiting for CtrlQ threshold .
+      |            ^~~~~~~~~~~~~~~~~~
+../Core/Inc/colton.h:40:12: error: field 'boOverflowErr' has incomplete type
+   40 |  enum BOOL boOverflowErr ;      // Overflow error flag .
+      |            ^~~~~~~~~~~~~
+../Core/Inc/colton.h:41:12: error: field 'boParityErr' has incomplete type
+   41 |  enum BOOL boParityErr ;      // Parity error flag .
+      |            ^~~~~~~~~~~
+../Core/Inc/colton.h:54:12: error: field 'boTxUserCtrlS' has incomplete type
+   54 |  enum BOOL boTxUserCtrlS ;      // True if the user requests stop of Tx.
+      |            ^~~~~~~~~~~~~
+make: *** [Core/Src/subdir.mk:42: Core/Src/main.o] Error 1
+"make -j16 all" terminated with exit code 2. Build might be incomplete.
+
+19:57:59 Build Failed. 10 errors, 2 warnings. (took 6s.340ms)
+

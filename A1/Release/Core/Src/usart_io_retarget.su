@@ -1,0 +1,5 @@
+usart_io_retarget.c:33:6:my_USART_Init	0	static
+usart_io_retarget.c:42:5:__io_putchar	16	static
+usart_io_retarget.c:50:5:__io_getchar	16	static
+stdio.h:217:5:getchar	8	static
+stdio.h:220:5:putchar	0	static

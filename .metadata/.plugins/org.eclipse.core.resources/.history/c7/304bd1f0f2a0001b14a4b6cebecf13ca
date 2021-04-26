@@ -1,0 +1,13 @@
+/*
+ * colton.h
+ *
+ *  Created on: 19 Apr 2021
+ *      Author: c3267533
+ */
+
+#ifndef INC_COLTON_H_
+#define INC_COLTON_H_
+
+void coltonFunction(void);
+
+#endif /* INC_COLTON_H_ */

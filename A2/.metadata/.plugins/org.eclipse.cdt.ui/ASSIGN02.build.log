@@ -1,0 +1,20 @@
+19:25:24 **** Incremental Build of configuration Debug for project ASSIGN02 ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DDEBUG -DSTM32F407xx -c -I../USB_HOST/App -I../USB_HOST/Target -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Middlewares/ST/STM32_USB_Host_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Inc -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "ASSIGN02.elf" @"objects.list"   -mcpu=cortex-m4 -T"U:\2021\ELEC2720\A2\ASSIGN02\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="ASSIGN02.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: ASSIGN02.elf
+ 
+arm-none-eabi-objdump -h -S  ASSIGN02.elf  > "ASSIGN02.list"
+arm-none-eabi-objcopy  -O binary  ASSIGN02.elf  "ASSIGN02.bin"
+arm-none-eabi-size   ASSIGN02.elf 
+   text	   data	    bss	    dec	    hex	filename
+  30628	    152	   3440	  34220	   85ac	ASSIGN02.elf
+Finished building: default.size.stdout
+ 
+Finished building: ASSIGN02.bin
+ 
+Finished building: ASSIGN02.list
+ 
+
+19:25:41 Build Finished. 0 errors, 0 warnings. (took 16s.903ms)
+
