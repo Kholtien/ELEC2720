@@ -1,0 +1,4 @@
+uart2_io_retarget.c:25:5:__io_putchar	16	static
+uart2_io_retarget.c:34:5:__io_getchar	16	static
+uart2_io_retarget.c:45:6:getchar	8	static
+uart2_io_retarget.c:50:5:putchar	8	static
