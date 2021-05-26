@@ -1,0 +1,10 @@
+Serial_Driver.c:170:6:fvdSerialChannelISR	32	static
+Serial_Driver.c:236:6:fvdRxInterruptHandler	24	static
+Serial_Driver.c:331:6:fvdTxInterruptHandler	16	static
+Serial_Driver.c:421:26:pstCreateSerialChannel	40	static
+Serial_Driver.c:547:6:fvdEnableSerialChInterrupts	16	static
+Serial_Driver.c:586:6:fchGetChar	24	static
+Serial_Driver.c:657:9:fuinPutChar	24	static
+Serial_Driver.c:726:10:fuinGetAllChars	40	static
+Serial_Driver.c:758:10:fuinReceivedChars	24	static
+Serial_Driver.c:783:11:fboPrintString	32	static

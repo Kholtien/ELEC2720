@@ -7,13 +7,13 @@ stm32f4xx_hal_spi.c:483:13:HAL_SPI_MspInit	0	static
 stm32f4xx_hal_spi.c:313:19:HAL_SPI_Init	8	static
 stm32f4xx_hal_spi.c:499:13:HAL_SPI_MspDeInit	0	static
 stm32f4xx_hal_spi.c:439:19:HAL_SPI_DeInit	8	static
-stm32f4xx_hal_spi.c:771:19:HAL_SPI_Transmit	32	static
+stm32f4xx_hal_spi.c:771:19:HAL_SPI_Transmit	40	static
 stm32f4xx_hal_spi.c:1134:19:HAL_SPI_TransmitReceive	40	static
-stm32f4xx_hal_spi.c:936:19:HAL_SPI_Receive	32	static
+stm32f4xx_hal_spi.c:936:19:HAL_SPI_Receive	40	static
 stm32f4xx_hal_spi.c:1358:19:HAL_SPI_Transmit_IT	0	static
 stm32f4xx_hal_spi.c:1537:19:HAL_SPI_TransmitReceive_IT	8	static
-stm32f4xx_hal_spi.c:1443:19:HAL_SPI_Receive_IT	16	static
-stm32f4xx_hal_spi.c:1625:19:HAL_SPI_Transmit_DMA	8	static
+stm32f4xx_hal_spi.c:1443:19:HAL_SPI_Receive_IT	8	static
+stm32f4xx_hal_spi.c:1625:19:HAL_SPI_Transmit_DMA	16	static
 stm32f4xx_hal_spi.c:1848:19:HAL_SPI_TransmitReceive_DMA	16	static
 stm32f4xx_hal_spi.c:1733:19:HAL_SPI_Receive_DMA	16	static
 stm32f4xx_hal_spi.c:1994:19:HAL_SPI_Abort	24	static

@@ -1,0 +1,24 @@
+19:12:53 **** Incremental Build of configuration Ass-04-STM32 for project Ass-04 ****
+make all 
+arm-none-eabi-gcc "../Src/Ass-04-ADC-DMA.c" -mcpu=cortex-m4 -std=gnu11 -g3 '-D__weak=__attribute__((weak))' '-D__packed=__attribute__((__packed__))' -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O3 -ffunction-sections -Wall -fstack-usage -MMD -MP -MF"Src/Ass-04-ADC-DMA.d" -MT"Src/Ass-04-ADC-DMA.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/Ass-04-ADC-DMA.o"
+arm-none-eabi-gcc "../Src/Ass-04-ADC-Interrupt.c" -mcpu=cortex-m4 -std=gnu11 -g3 '-D__weak=__attribute__((weak))' '-D__packed=__attribute__((__packed__))' -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O3 -ffunction-sections -Wall -fstack-usage -MMD -MP -MF"Src/Ass-04-ADC-Interrupt.d" -MT"Src/Ass-04-ADC-Interrupt.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/Ass-04-ADC-Interrupt.o"
+arm-none-eabi-gcc "../Src/Ass-04-ADC-Poll.c" -mcpu=cortex-m4 -std=gnu11 -g3 '-D__weak=__attribute__((weak))' '-D__packed=__attribute__((__packed__))' -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O3 -ffunction-sections -Wall -fstack-usage -MMD -MP -MF"Src/Ass-04-ADC-Poll.d" -MT"Src/Ass-04-ADC-Poll.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/Ass-04-ADC-Poll.o"
+arm-none-eabi-gcc "../Src/Ass-04.c" -mcpu=cortex-m4 -std=gnu11 -g3 '-D__weak=__attribute__((weak))' '-D__packed=__attribute__((__packed__))' -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O3 -ffunction-sections -Wall -fstack-usage -MMD -MP -MF"Src/Ass-04.d" -MT"Src/Ass-04.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/Ass-04.o"
+arm-none-eabi-gcc "../Src/main_STM32.c" -mcpu=cortex-m4 -std=gnu11 -g3 '-D__weak=__attribute__((weak))' '-D__packed=__attribute__((__packed__))' -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O3 -ffunction-sections -Wall -fstack-usage -MMD -MP -MF"Src/main_STM32.d" -MT"Src/main_STM32.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/main_STM32.o"
+arm-none-eabi-gcc -o "Ass-04.elf" @"objects.list"   -mcpu=cortex-m4 -T"../STM32F407VGTx_FLASH.ld" --specs=nosys.specs -Wl,-Map="Ass-04.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Ass-04.elf
+ 
+arm-none-eabi-objdump -h -S  Ass-04.elf  > "Ass-04.list"
+Finished building: Ass-04.list
+ 
+arm-none-eabi-objcopy  -O ihex  Ass-04.elf  "Ass-04.hex"
+Finished building: Ass-04.hex
+ 
+arm-none-eabi-size   Ass-04.elf 
+   text	   data	    bss	    dec	    hex	filename
+  24736	    484	   1932	  27152	   6a10	Ass-04.elf
+Finished building: default.size.stdout
+ 
+
+19:13:08 Build Finished. 0 errors, 0 warnings. (took 14s.637ms)
+

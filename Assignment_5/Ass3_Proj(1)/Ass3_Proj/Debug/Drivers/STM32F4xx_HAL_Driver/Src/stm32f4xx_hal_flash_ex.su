@@ -7,7 +7,7 @@ stm32f4xx_hal_flash_ex.c:1301:16:FLASH_OB_GetBOR	0	static
 stm32f4xx_hal_flash_ex.c:1032:26:FLASH_OB_EnableWRP	8	static
 stm32f4xx_hal_flash_ex.c:1068:26:FLASH_OB_DisableWRP	8	static
 stm32f4xx_hal_flash_ex.c:1162:26:FLASH_OB_RDP_LevelConfig	8	static
-stm32f4xx_hal_flash_ex.c:1196:26:FLASH_OB_UserConfig	16	static
+stm32f4xx_hal_flash_ex.c:1196:26:FLASH_OB_UserConfig	24	static
 stm32f4xx_hal_flash_ex.c:286:19:HAL_FLASHEx_OBProgram	8	static
 stm32f4xx_hal_flash_ex.c:345:6:HAL_FLASHEx_OBGetConfig	8	static
 stm32f4xx_hal_flash_ex.c:982:6:FLASH_Erase_Sector	4	static

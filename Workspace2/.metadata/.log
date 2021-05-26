@@ -1,0 +1,27 @@
+!SESSION 2021-05-26 18:50:39.462 -----------------------------------------------
+eclipse.buildId=Version 1.6.1
+java.version=11.0.9.1
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_AU
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2021-05-26 18:50:51.062
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2021-05-26 18:50:51.124
+!MESSAGE Log4j initialized with config file U:\2021\ELEC2720\Workspace2\.metadata\.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2021-05-26 18:50:54.215
+!MESSAGE Started RMI Server, listening on port 41339
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 4 4 2021-05-26 18:50:54.887
+!MESSAGE com.st.stm32cube.ide.mcu.ide/META-INF/version/build_ref file not found, build reference will not be reported into properties
+
+!ENTRY org.eclipse.cdt.core 1 0 2021-05-26 18:51:32.944
+!MESSAGE Indexed 'Assignment3' (23 sources, 104 headers) in 3.18 sec: 8,381 declarations; 30,027 references; 2 unresolved inclusions; 42 syntax errors; 147 unresolved names (0.38%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2021-05-26 18:53:10.058
+!MESSAGE Indexed 'Ass3' (23 sources, 106 headers) in 2.49 sec: 8,847 declarations; 29,823 references; 2 unresolved inclusions; 42 syntax errors; 145 unresolved names (0.37%)
+
+!ENTRY com.st.stm32cube.ide.mcu.debug.launch 2 0 2021-05-26 19:16:49.373
+!MESSAGE Won't launch debug session since we failed to locate the binary.

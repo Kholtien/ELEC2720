@@ -1,0 +1,57 @@
+/*        $Id: Ass-04.h 1863 2019-05-13 23:59:49Z Peter $
+ *  $Revision: 1863 $
+ *      $Date: 2019-05-14 09:59:49 +1000 (Tue, 14 May 2019) $
+ *    $Author: Peter $
+ */
+
+// Common include file for all modules
+#ifndef ASS_04_H_
+#define ASS_04_H_
+
+// Assignment and version strings
+#define ASS_STRING "ELEC2720-2019s1 Assignment 4"
+#define VER_STRING "Ver: 02 $Rev: 1863 $"
+
+// Standard includes
+
+#ifdef STM32F407xx
+#include "stm32f4xx_hal.h"
+#include "gpio.h"
+#include "dma.h"
+#include "adc.h"
+#else
+#include <windows.h>
+#endif
+#include <stdio.h>
+#include <stdlib.h>
+#include <stdint.h>
+
+// Delay function that can have zero delay
+
+#define MY_HAL_Delay(x) ((x)==0 ? : HAL_Delay(x))
+
+// Questions to be completed
+
+//#define DO_QUESTION_1
+// #define DO_QUESTION_2
+ #define DO_QUESTION_3
+
+// Parameters
+
+#define TOGGLE_DELAY      100 // Period before toggling heartbeat LED (ms)
+
+// Assignment main function
+
+extern int
+ADC_main (void);
+
+extern void
+ADC_Poll ();
+
+extern void
+ADC_Interrupt ();
+
+extern void
+ADC_DMA ();
+
+#endif /* ASS_04_H_ */

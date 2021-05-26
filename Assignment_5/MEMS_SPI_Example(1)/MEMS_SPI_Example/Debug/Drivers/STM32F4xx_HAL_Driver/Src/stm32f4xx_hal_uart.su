@@ -1,8 +1,8 @@
 stm32f4xx_hal_uart.c:3287:13:UART_EndTxTransfer	0	static
 stm32f4xx_hal_uart.c:3301:13:UART_EndRxTransfer	0	static
 stm32f4xx_hal_uart.c:3495:26:UART_Transmit_IT	0	static
-stm32f4xx_hal_uart.c:3648:13:UART_SetConfig	32	static
-stm32f4xx_hal_uart.c:3164:26:UART_WaitOnFlagUntilTimeout	24	static
+stm32f4xx_hal_uart.c:3648:13:UART_SetConfig	16	static
+stm32f4xx_hal_uart.c:3164:26:UART_WaitOnFlagUntilTimeout	32	static
 stm32f4xx_hal_uart.c:708:13:HAL_UART_MspInit	0	static
 stm32f4xx_hal_uart.c:355:19:HAL_UART_Init	8	static
 stm32f4xx_hal_uart.c:432:19:HAL_HalfDuplex_Init	8	static

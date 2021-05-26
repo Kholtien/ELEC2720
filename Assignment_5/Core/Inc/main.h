@@ -82,6 +82,10 @@ void Error_Handler(void);
 #define SPI1_MISO_GPIO_Port GPIOA
 #define SPI1_MOSI_Pin GPIO_PIN_7
 #define SPI1_MOSI_GPIO_Port GPIOA
+#define ADC1_Pin GPIO_PIN_0
+#define ADC1_GPIO_Port GPIOB
+#define ADC2_Pin GPIO_PIN_1
+#define ADC2_GPIO_Port GPIOB
 #define BOOT1_Pin GPIO_PIN_2
 #define BOOT1_GPIO_Port GPIOB
 #define CLK_IN_Pin GPIO_PIN_10
@@ -125,7 +129,10 @@ void Error_Handler(void);
 #define MEMS_INT2_Pin GPIO_PIN_1
 #define MEMS_INT2_GPIO_Port GPIOE
 /* USER CODE BEGIN Private defines */
-
+#define GREEN_LED LD4_Pin
+#define ORANGE_LED LD3_Pin
+#define RED_LED LD5_Pin
+#define BLUE_LED LD6_Pin
 /* USER CODE END Private defines */
 
 #ifdef __cplusplus
