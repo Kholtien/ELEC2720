@@ -1,5 +1,0 @@
-command_decoder.c:145:13:decode_binary	40	static
-command_decoder.c:265:13:decode_ascii	32	static
-command_decoder.c:352:6:char_decode	16	static
-command_decoder.c:399:25:addr_decode	24	static
-command_decoder.c:458:12:decode_mbx_mess	48	static
